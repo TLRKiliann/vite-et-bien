@@ -4,12 +4,19 @@ import { NavBar } from './Components/NavBar';
 import { Home } from './Pages/Home';
 import { Menu } from './Pages/Menu';
 import { Services } from './Pages/Services';
+import bgImg from './assets/images/bread_bg.png';
 import './App.css'
 
 
 const App = () => {
   return (
     <div className="origin--div">
+      <div className="img_bg">
+        <img
+          className="image_bg"
+          src={bgImg}
+          alt="no img bg" />
+      </div>
       <NavBar />
       <Routes>
         <Route path='/' element={<Home />} />
