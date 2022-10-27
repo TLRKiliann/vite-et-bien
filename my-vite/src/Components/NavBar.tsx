@@ -21,13 +21,13 @@ export const NavBar = () => {
         </NavLink>
       </li>
       <li>
-        <NavLink className="submainnavbar--div" to='/menu'>
-          Menu
+        <NavLink className="submainnavbar--div" to='/services'>
+          Services
         </NavLink>
       </li>
       <li id="lastsubmain--nav">
-        <NavLink className="submainnavbar--div" to='/services'>
-          Services
+        <NavLink className="submainnavbar--div" to='/contact'>
+          Contact
         </NavLink>
       </li>
     </div>

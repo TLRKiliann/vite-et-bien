@@ -5,8 +5,8 @@
   flex-direction: row;
   align-items: center;
   justify-content: right;
-
   background: black;
+  z-index: 3;
 }
 
 .div--iconsnav {
@@ -14,33 +14,27 @@
   display: flex;
   align-items: center;
   margin: auto;
-
 }
 
 .div--iconsnav img {
-  width: 100px;
-  height: 60px;
+  width: 80px;
+  height: 50px;
   display: flex;
   align-items: center;
-
   background: black;
 }
 
 .img--iconsnav {
-
   display: flex;
   align-items: center;
-  margin: auto 10px;
-  width: 35px;
-  height: 35px;
+  margin: auto 20px;
   border-radius: 50%;
-  border: 1px solid white;
 }
-
 
 .mainnavbar--div li {
   margin-left: 100px;
   list-style: none;
+  font-weight: bold;
 }
 
 .submainnavbar--div  {
@@ -51,5 +45,5 @@
 }
 
 #lastsubmain--nav {
-  margin-right: 100px;
+  margin-right: 160px;
 }
