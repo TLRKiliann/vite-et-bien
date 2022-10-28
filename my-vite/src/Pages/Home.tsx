@@ -1,17 +1,33 @@
-import '../StylePages/Home.css';
+import React, {useState} from 'react';
 import mainBread from '../assets/images/bread_title.png';
 import firstBread from '../assets/images/main_bread.jpg';
 import cake from '../assets/images/cake.jpg';
 import superBread from '../assets/images/super_bread.png';
 import stackBread from '../assets/images/ness.png';
+import cakeImg from '../assets/images/cake.png';
+import gatLogo from '../assets/images/gateau_logo.png';
+import clickMe from '../assets/images/fig_bakery.png';
+import '../StylePages/Home.css';
+
 
 export const Home = () => {
+  const [command, setCommand] = useState<boolean>(false);
+  const [afterClickMe, setAfterClickMe] = useState<boolean>(false);
+  
+  const handleCommand = () => {
+    setCommand(!command);
+  };
+
+  const handlePanelCmd = () => {
+    setAfterClickMe(!afterClickMe);
+  };
+
   return (
     <div className="main--home">
       
       <div className="submain--home">
 
-        <div className="div--titlehome">
+        <div className="div--titlecontact">
 
           <div className="bg_mainbread">
             <img 
@@ -40,28 +56,51 @@ export const Home = () => {
       </div>
 
 
-      <div className="mainnav--home">
-          <h4>Un titre</h4>
-        <div className="submainnav--home">
-          <nav className="nav--home">
-            <ul>
-              <li>
-                Pains
-              </li>
-              <li>
-                Pâtisseries
-              </li>
-              <li>
-                Gâteaux
-              </li>
-              <li>
-                Commandes
-              </li>
-            </ul>
-          </nav>
+      {afterClickMe ? (
+        <div className="mainnav--home">
+            <h4>Commandes</h4>
+          <div className="submainnav--home">
+            <nav className="nav--home">
+              <ul>
+                <div className="limg--cmd">
+                  <li className="list--cmd">
+                    <a>Boulangerie</a>
+                    <img
+                      src={superBread}
+                      width="25px"
+                      height="25px"
+                      alt="icon pain"
+                    />
+                  </li>
+                </div>
+                <div className="limg--cmd">
+                  <li className="list--cmd">
+                    <a>Gênoisieries</a>
+                    <img
+                      src={cakeImg}
+                      width="25px"
+                      height="25px"
+                      alt="icon pain"
+                    />
+                  </li>
+                </div>
+                <div className="limg--cmd">
+                  <li className="list--cmd">
+                    <a>Pâtisseries</a>
+                    <img
+                      src={gatLogo}
+                      width="30px"
+                      height="30px"
+                      alt="icon pain"
+                    />
+                  </li>
+                </div>
+              </ul>
+            </nav>
+          </div>
         </div>
-      </div>
-
+        ) : null
+      }
 
       <div className="div--breadhome">
 
@@ -228,12 +267,29 @@ export const Home = () => {
 
       </div>
 
+      {command ? (
+        <div className="click--me" onClick={handlePanelCmd}>
+          <div className="subclick--me">
+            <img
+              src={clickMe}
+              className="click--img"
+              alt="no img click-me"
+            />
+          </div>
+        </div>
+      ) : null}
+
       <footer>
 
         <div className="divfooter--home">
           <nav className="divfooter--nav">
             <ul>
-              <li>Commandes</li>
+              <li
+                style={{marginLeft: '120px'}}
+                onClick={handleCommand}
+              >
+                Commandes
+              </li>
               <li>Allergies</li>
               <li>Liens utiles</li>
               <li>Contact</li>
