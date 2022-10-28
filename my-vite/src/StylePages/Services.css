@@ -1,1 +1,75 @@
-Services.css
+body {
+  min-width: 399px;
+  margin: auto;
+}
+
+.main--service {
+  margin: auto 140px;
+  background: #fffaf0;
+  box-shadow: 0px 0px 20px dimgrey;
+
+  border: 1px solid lightgrey;
+}
+
+.div--titleservice h1 {
+  margin-left: 20px;
+  font-size: 2.8rem;
+  font-family: 'Dancing Script', cursive;
+  color: goldenrod;
+  text-shadow: 2px 1px 2px saddlebrown;
+}
+
+.bg_mainbreadservice {
+  position: fixed;
+  margin: auto;
+  width: 100%;
+  opacity: 0.2;
+  z-index: 0;
+}
+
+.bg_mainbreadservice img {
+  width: 80%;
+  margin: auto;
+  margin-top: -30px;
+}
+
+.subtitle--serv {
+  position: relative;
+  margin: 10px 20px;
+  font-size: 2rem;
+  font-family: 'Dancing Script', cursive;
+  text-shadow: 1px 0px 1px saddlebrown;
+  color: goldenrod;
+}
+
+.main--imgserv {
+  padding: 40px 0px;
+  position: relative;
+  width:  100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 20px;
+
+  background: #fff3db;
+
+  border-top:  1px solid burlywood;
+  border-bottom:  1px solid burlywood;
+}
+
+.submain--imgserv {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  border: 1px solid burlywood;
+  border-radius: 10px 10px 0px 0px;
+  background: #fbe6bb;
+  box-shadow: 0px 0px 10px grey;
+}
+
+legend {
+  text-align: center;
+
+}

@@ -2,11 +2,10 @@ import { useState } from 'react'
 import { Routes, Route} from 'react-router-dom';
 import { NavBar } from './Components/NavBar';
 import { Home } from './Pages/Home';
-import { Menu } from './Pages/Menu';
 import { Services } from './Pages/Services';
+import { Contact } from './Pages/Contact';
 import bgImg from './assets/images/bread_bg.png';
 import './App.css'
-
 
 const App = () => {
   return (
@@ -20,8 +19,8 @@ const App = () => {
       <NavBar />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/Menu' element={<Menu />} />
-        <Route path='/services' element={<Services />} />
+        <Route path='/Services' element={<Services />} />
+        <Route path='/Contact' element={<Contact />} />
       </Routes>
     </div>
   )

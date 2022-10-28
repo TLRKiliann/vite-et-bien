@@ -1,75 +1,159 @@
+/*@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+HTML
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto"/>
+*/
+
 body {
   min-width: 399px;
   height: 100%;
   margin: auto;
-
-  border: 1px solid blue;
 }
 
 .main--home {
-  margin: 0px 160px;
+  margin: 0px 140px;
   background: #fffaf0;
-  border-right: 1px solid grey;
-  border-left: 1px solid grey;
-  box-shadow: 0px 0px 7px grey;
+  box-shadow: 0px 0px 20px dimgrey;
 }
 
 .submain--home {
-
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid burlywood;
 }
 
 .div--homeh1 {
+  position: relative;
   width: 100%;
   padding: 20px 0px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Consolas', cursive;
-  background: #fffaf0;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.2rem;
+  color: goldenrod;
+  text-shadow: 1px 1px 1px saddlebrown;
+  background: transparent;
 }
+
+.bg_mainbread {
+  position: fixed;
+  margin: auto;
+  width: 100%;
+  opacity: 0.2;
+}
+
+.bg_mainbread img {
+  width: 80%;
+  margin: auto;
+  margin-top: 86px;
+}
+
+/*.hidden--frame {
+  position: relative;
+  overflow: hidden;
+  z-index: 4;
+}*/
 
 .mainnav--home {
   position: absolute;
-  margin-top: 0px;
+  margin-top: 1200px;
   right: 0px;
   width: 20%;
 
-  background: #fffaf0;
-  border-top: 1px solid grey;
-  border-bottom: 1px solid grey;
-  border-left: 1px solid grey;
-
+  background: #fbe6bb;
+  border-top: 1px solid saddlebrown;
+  border-bottom: 1px solid saddlebrown;
+  border-left: 1px solid saddlebrown;
+  border-radius: 10px 0px 0px 10px;
+  color: saddlebrown;
   z-index: 4;
+
+  overflow: hidden;
+
+  animation-name: panel;
+  animation-delay: 0s;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+
+@keyframes panel {
+  0% {
+    margin-right: -300px;
+    overflow: hidden;
+  }
+  100% {
+    margin-right: 0px;
+    overflow: hidden;
+  }
 }
 
 .mainnav--home h4 {
   text-align: center;
 }
 
-.submainnav--home {
+.mainnav--home li {
+  list-style: circle;
+}
 
+.submainnav--home {
+  display: flex;
+  background: #fbe6bb;
+  border-top: 1px solid saddlebrown;
+  border-radius: 0px 0px 0px 10px;
+}
+
+.nav--home > ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.limg--cmd {
+  margin: 10px 0px !important;
+}
+
+.list--cmd > li {
+  display: flex;
+  align-items: center;
+  list-style: circle;
   border: 1px solid orange;
 }
 
-.nav--home {
 
-  border: 1px solid blue;
+.list--cmd li {
+  margin: 20px 0px !important;
 }
 
+.list--cmd img {
+  margin: -10px 10px;
+}
 
+/*IMG + articles*/
 .div--breadhome {
+  position: relative;
   width: 100%;
+  height: auto;
+  margin: auto;
+  padding: auto;
   display: flex;
-
-  border:  1px solid blue;
+  align-items: center;
+  border-bottom: 1px solid burlywood;
 }
 
-/*.div--subbreadhome {
-  border:  2px solid orange;
-}*/
+section p {
+  font-size: 1.1rem;
+  color: black;
+}
+
+.div--subbreadhome {
+  margin: auto;
+  padding: auto;
+  display: flex;
+  box-shadow: 12px 12px 12px dimgrey;
+}
 
 .div--artfirst {
+  position: relative;
   width: 100%;
 }
 
@@ -78,49 +162,110 @@ body {
   text-align: justify;
 }
 
+.art--firsthome h1 {
+  color: goldenrod;
+  text-shadow: 1px 1px 1px saddlebrown;
+}
+
 /*.div--artfirst article {
   border:  1px solid blue;
 }*/
 
-
-
 .div--cake {
   width: 100%;
-
-  display: inline-flex;
+  display: flex;
+  align-items: center;
   justify-content: space-between;
 
-  border: 1px solid black;
+  border-top: 1px solid burlywood;
+  border-bottom: 1px solid burlywood;
 }
 
 .div--subcake {
   width: auto;
   display: flex;
-  border: 2px solid cyan;
 }
 
 .art--third {
   width: 100%;
   padding: 10px 40px;
   text-align: justify;
+}
 
-  border: 1px solid red; 
+.art--third h1 {
+  color: goldenrod;
+  text-shadow: 1px 1px 1px saddlebrown;
 }
 
 .div--cakeimg img {
+  position: relative;
   display: flex;
-
-  border: 1px solid red; 
+  box-shadow: -12px 12px 12px dimgrey;
 }
 
+.div--finalhome {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 20px;
+  padding: auto;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid burlywood;  
+}
 
+.div--sublasthome {
+  position: relative;
+  margin: auto;
+  padding: auto;
+  box-shadow: 12px 12px 12px dimgrey;
+}
 
+/*Last animation*/
+.click--me {
+  position: absolute;
+  top: 1765px;
+  right: 0px;
+
+  display: flex;
+  justify-content: right;
+
+  animation-name: girl;
+  animation-delay: 0s;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+
+  z-index: 3;
+  overflow: hidden;
+}
+
+@keyframes girl {
+  0% {
+    top: 2200px;
+  }
+  100% {
+    top: 1765px;
+  }
+}
+
+.click--img {
+  width: 200px;
+  height: 230px;
+}
+
+.click--img:hover {
+  opacity: 0.85;
+  cursor: pointer;
+}
 
 footer {
   position: absolute;
   margin-top: 0px;
+  margin-bottom: 0px;
   right: 0px;
   left: 0px;
+
   display: flex;
   background: black;
   color: whitesmoke;
@@ -135,16 +280,26 @@ footer {
 
 .divfooter--nav {
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .divfooter--nav > ul > li {
   padding: 20px;
-  margin: 0px 56px;
   display: inline-flex;
   justify-content: space-between;
   font-family: 'Consolas';
   font-size: 1.2rem;
   font-weight: bold;
+}
+
+.divfooter--nav li {
+  margin-right: 120px;
+}
+
+.divfooter--nav > ul > li:hover {
+  color: orange;
+  cursor: pointer;
 }
 
 .div--iconshome {
