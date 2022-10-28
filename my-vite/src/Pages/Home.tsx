@@ -115,10 +115,10 @@ export const Home = () => {
 
         <div className="div--artfirst">
           <article className="art--firsthome">
-            <h1>
-              Bienvenue chez Esteban & Celestine !
-            </h1>
             <section>
+              <h1>
+                Bienvenue chez Esteban & Celestine !
+              </h1>
               <p>La fabrication de notre pain se perpétue au travers des 
                 traditions ancestrales, tenue de génération en génération
                 par notre famille. L'épautre et le blé sont les clefs de
@@ -142,10 +142,10 @@ export const Home = () => {
 
       <div className="div--artfirst">
         <article className="art--firsthome">
-          <h1>Le meilleur pain c'est chez nous.
-            C'est maintenant qu'il faut venir !
-          </h1>
           <section>
+            <h1>Le meilleur pain c'est chez nous.
+              C'est maintenant qu'il faut venir !
+            </h1>
             <p>La fabrication de notre pain se perpétue au travers des 
               traditions ancestrales, tenue de génération en génération
               par notre famille. L'épautre et le blé sont les clefs de
@@ -166,10 +166,10 @@ export const Home = () => {
 
         <div className="div--subcake">
           <article className="art--third">
-            <h1>Le meilleur pain c'est chez nous.
-              C'est maintenant qu'il faut venir !
-            </h1>
             <section>
+              <h1>Le meilleur pain c'est chez nous.
+                C'est maintenant qu'il faut venir !
+              </h1>
               <p>La fabrication de notre pain se perpétue au travers des 
                 traditions ancestrales, tenue de génération en génération
                 par notre famille. L'épautre et le blé sont les clefs de
@@ -211,10 +211,10 @@ export const Home = () => {
 
       <div className="div--artfirst">
         <article className="art--firsthome">
-          <h1>Le meilleur pain c'est chez nous.
-            C'est maintenant qu'il faut venir !
-          </h1>
           <section>
+            <h1>Le meilleur pain c'est chez nous.
+              C'est maintenant qu'il faut venir !
+            </h1>
             <p>La fabrication de notre pain se perpétue au travers des 
               traditions ancestrales, tenue de génération en génération
               par notre famille. L'épautre et le blé sont les clefs de
@@ -243,10 +243,10 @@ export const Home = () => {
 
         <div className="div--artfirst">
           <article className="art--firsthome">
-            <h1>
-              Bienvenue chez Esteban & Celestine !
-            </h1>
             <section>
+              <h1>
+                Bienvenue chez Esteban & Celestine !
+              </h1>
               <p>La fabrication de notre pain se perpétue au travers des 
                 traditions ancestrales, tenue de génération en génération
                 par notre famille. L'épautre et le blé sont les clefs de

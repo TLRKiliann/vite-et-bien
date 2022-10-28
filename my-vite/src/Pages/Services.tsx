@@ -10,7 +10,8 @@ import patissImg3 from '../assets/images/patisserie_3.jpg';
 import blackforest from '../assets/images/foret_noir.jpg';
 import chocGat from '../assets/images/gateau_choc.jpg';
 import plateau from '../assets/images/plateau.jpg';
-
+import littlecake from '../assets/images/petits_gateau.jpg'
+import pepito from '../assets/images/gateau_pepites.jpg'
 
 
 export const Services = () => {
@@ -84,11 +85,33 @@ export const Services = () => {
 
             <div className="submain--imgserv">
               <img
-                src={patissImg3}
-                width="300px"
+                src={littlecake}
+                width="210px"
                 height="200px"
                 alt="no patisserie" />
               <legend>Diverses Pâtisseries</legend>
+            </div>
+          </div>
+
+          <h2 className="subtitle--serv">Nos Spécialités</h2>
+
+          <div className="main--imgserv">
+            <div className="submain--imgserv">
+              <img
+                src={patissImg3}
+                width="400px"
+                height="200px"
+                alt="no patisserie" />
+              <legend>Diverses Pâtisseries</legend>
+            </div>
+
+            <div className="submain--imgserv">
+              <img
+                src={plateau}
+                width="400px"
+                height="200px"
+                alt="no patisserie" />
+              <legend>Arrangement aux Choix</legend>
             </div>
           </div>
 
@@ -115,11 +138,11 @@ export const Services = () => {
 
             <div className="submain--imgserv">
               <img
-                src={plateau}
-                width="400px"
+                src={pepito}
+                width="300px"
                 height="200px"
                 alt="no patisserie" />
-              <legend>Arrangement aux Choix</legend>
+              <legend>Cake aux Pépites de Choc</legend>
             </div>
           </div>
 

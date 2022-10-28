@@ -138,6 +138,7 @@ body {
   display: flex;
   align-items: center;
   border-bottom: 1px solid burlywood;
+  z-index: 2;
 }
 
 section p {
@@ -158,8 +159,10 @@ section p {
 }
 
 .art--firsthome {
+  position: relative;
   padding: 10px 40px;
   text-align: justify;
+  z-index: 1;
 }
 
 .art--firsthome h1 {
@@ -172,6 +175,7 @@ section p {
 }*/
 
 .div--cake {
+  position: relative;
   width: 100%;
   display: flex;
   align-items: center;
@@ -192,7 +196,9 @@ section p {
   text-align: justify;
 }
 
-.art--third h1 {
+section h1 {
+  padding: 10px 20px;
+  font-size: 1.6rem;
   color: goldenrod;
   text-shadow: 1px 1px 1px saddlebrown;
 }
