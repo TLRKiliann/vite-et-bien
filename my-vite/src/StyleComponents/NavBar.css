@@ -37,11 +37,19 @@
   font-weight: bold;
 }
 
+.mainnavbar--div li:hover  {
+  transform: scale(1.1);
+}
+
 .submainnavbar--div  {
   padding: 10px 10px;
-  font-size: 20px;
+  font-size: 1.4rem;
   text-decoration: none;
   color: whitesmoke;
+}
+
+.submainnavbar--div:hover {
+  color: orange;
 }
 
 #lastsubmain--nav {
