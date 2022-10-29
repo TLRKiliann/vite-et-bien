@@ -7,11 +7,12 @@ body {
   margin: auto 140px;
   background: #fffaf0;
   box-shadow: 0px 0px 20px dimgrey;
-
-  border: 1px solid lightgrey;
 }
 
 .div--titlecontact h1 {
+  margin: auto;
+  padding-top: 20px;
+  margin-bottom: 70px;
   margin-left: 20px;
   font-size: 2.8rem;
   font-family: 'Dancing Script', cursive;
@@ -23,6 +24,7 @@ body {
   position: fixed;
   margin: auto;
   width: 100%;
+  top: 190px;
   opacity: 0.2;
   z-index: 0;
 }
@@ -33,49 +35,75 @@ body {
   margin-top: -30px;
 }
 
-.div--mapaddcontact {
-  width: 100%;
-  margin: 0px 0px;
-  margin-top:  -380px;
-  margin-bottom: 100px;
+.div--horairepluscard {
+  width: 91%;
+  margin: auto;
+  padding: 40px 0px;
+  padding-left: 60px;
+  padding-right: 60px;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
 }
 
+.div--horaires {
+  position: relative;
+  width: 30%;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+
+  font-size: 1.4rem;
+
+  border: 1px solid lightgrey;
+  background: cornsilk;
+  border-radius: 20px;
+  color: dimgrey;
+  z-index: 2;
+}
+
+.div--horaires, h3, h4, p {
+  margin: 5px 10px;
+}
+
+.div--horaires h4, p {
+  padding: 0px 0px;
+}
 .div--articlecontact {
   padding: 0px 10px;
-  width: 50%;
+  width: 445px;
   height: auto;
   margin: auto 40px;
   display: flex;
   justify-content: center;
   background: black;
   color: whitesmoke;
-  border-radius: 20px;
 }
-
 
 .div--croissant {
   position: absolute;
-  margin-top: 0px;
-  opacity: 0.6;
-  z-index: 1;
+  margin:  0px auto;
+  opacity: 0.5;
+  z-index: 2;
 }
 
 .div--croissant img {
-  margin: auto;
+  margin: 5px;
 }
 
 .art--h4p {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  margin: auto;
   padding-top: 20px;
   padding-right: 20px;
   padding-bottom: 0px;
   padding-left: 20px;
-  position: relative;
-  z-index: 2;
+  z-index: 3;
 }
-
 
 .names--proprio {
   margin: auto;
@@ -87,12 +115,16 @@ body {
 }
 
 .map--shot {
-  margin-top: 700px;
-  margin-left: 40px;
-  position: relative;
-  width: 60%;
+  width: 960px;
+  height: 530px;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+.map--shot img {
+  position: absolute;
+  width: 960px;
   display: flex;
-  justify-content: center;
-  border: 1px solid grey;
   box-shadow: 0px 0px 10px dimgrey;
+  z-index: 1;
 }

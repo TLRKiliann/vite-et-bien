@@ -21,22 +21,24 @@ export const Contact = () => {
               alt='no bg for title' />
           </div>
 
-          <div className="div--mapaddcontact">
-            <div className="map--shot">
-              <img
-                src={mapShot}
-                width="600px"
-                height="360px"
-                alt="no map" />
+          <div className="div--horairepluscard">
+
+            <div className="div--horaires">
+              <h3>Horaires d'ouverture :</h3>
+              <h4>Matin</h4>
+              <p>08h00 - 12h00</p>
+              <h4>Après-midi</h4>
+              <p>13h00 - 19h00</p>
             </div>
 
             <div className="div--articlecontact">
 
               <div className="div--croissant">
+
                 <img
                   src={croissImg}
                   width="450px"
-                  height="328px"
+                  height="260px"
                   alt="no croissant" />
               </div>
 
@@ -53,7 +55,13 @@ export const Contact = () => {
               </article>
             </div>
           </div>
-        
+          <div className="map--shot">
+            <img
+              src={mapShot}
+              width="960px"
+              height="530px"
+              alt="no map" />
+          </div>
         </div>
 
       </div>

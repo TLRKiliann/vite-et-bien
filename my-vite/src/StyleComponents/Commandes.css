@@ -1,0 +1,88 @@
+body {
+  min-width: 399px;
+  height: 100%;
+  margin: auto;
+}
+
+.main--commandes {
+  padding-top: 10px;
+  margin: 0px 140px;
+  background: #fffaf0;
+  box-shadow: 0px 0px 20px dimgrey;
+}
+
+.submain--commandes {
+  border-bottom: 3px solid burlywood;
+}
+
+.div--titlecommandes {
+  position: relative;
+  margin-left: 20px;
+  font-size: 1.4rem;
+  font-family: 'Dancing Script', cursive;
+  color: goldenrod;
+  text-shadow: 1px 1px 1px saddlebrown;
+}
+
+.div--titlecommandes h2 {
+  width: 80%;
+  margin: auto;
+  margin-left: 20px;
+  display: flex;
+  justify-content: left;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.0rem;
+  color: goldenrod;
+  text-shadow: 1px 1px 1px saddlebrown;
+}
+
+.delais {
+  padding-top: 70px;
+  margin-left: 20px;
+}
+
+.delais--art {
+  margin-left: 20px; 
+}
+
+.delais--art p {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  color: black;
+  text-shadow: 0px 0px 0px white;
+}
+
+.livraison {
+  padding-top: 20px;
+  margin-left: 20px;
+}
+
+.livraison--art {
+  margin-left: 20px;
+  margin-bottom: 100px;
+}
+
+.livraison--art p {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  color: black;
+  text-shadow: 0px 0px 0px white;
+}
+
+.bg_mainbreadcmd {
+  position: fixed;
+  margin: auto;
+  top: 80px;
+  width: 100%;
+  opacity: 0.2;
+}
+
+.bg_mainbreadcmd img {
+  width: 80%;
+  margin: auto;
+  margin-top: 86px;
+}

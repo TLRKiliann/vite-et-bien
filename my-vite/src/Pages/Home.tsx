@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import { Link } from 'react-router-dom';
 import mainBread from '../assets/images/bread_title.png';
 import firstBread from '../assets/images/main_bread.jpg';
 import cake from '../assets/images/cake.jpg';
@@ -38,7 +39,7 @@ export const Home = () => {
           </div>
 
           <div className="div--homeh1">
-            <h1>Esteban</h1>
+            <h1 style={{paddingTop: '70px'}}>Esteban</h1>
 
             <img
               src={mainBread}
@@ -47,8 +48,7 @@ export const Home = () => {
               alt='img mainBread'
             />
 
-            <h1>Celestine</h1>
-
+            <h1 style={{paddingTop: '70px'}}>Celestine</h1>
           </div>
         
         </div>
@@ -115,10 +115,10 @@ export const Home = () => {
 
         <div className="div--artfirst">
           <article className="art--firsthome">
-            <h1>
-              Bienvenue chez Esteban & Celestine !
-            </h1>
             <section>
+              <h1>
+                Bienvenue chez Esteban & Celestine !
+              </h1>
               <p>La fabrication de notre pain se perpétue au travers des 
                 traditions ancestrales, tenue de génération en génération
                 par notre famille. L'épautre et le blé sont les clefs de
@@ -142,10 +142,10 @@ export const Home = () => {
 
       <div className="div--artfirst">
         <article className="art--firsthome">
-          <h1>Le meilleur pain c'est chez nous.
-            C'est maintenant qu'il faut venir !
-          </h1>
           <section>
+            <h1>Le meilleur pain c'est chez nous.
+              C'est maintenant qu'il faut venir !
+            </h1>
             <p>La fabrication de notre pain se perpétue au travers des 
               traditions ancestrales, tenue de génération en génération
               par notre famille. L'épautre et le blé sont les clefs de
@@ -166,10 +166,10 @@ export const Home = () => {
 
         <div className="div--subcake">
           <article className="art--third">
-            <h1>Le meilleur pain c'est chez nous.
-              C'est maintenant qu'il faut venir !
-            </h1>
             <section>
+              <h1>Le meilleur pain c'est chez nous.
+                C'est maintenant qu'il faut venir !
+              </h1>
               <p>La fabrication de notre pain se perpétue au travers des 
                 traditions ancestrales, tenue de génération en génération
                 par notre famille. L'épautre et le blé sont les clefs de
@@ -211,10 +211,10 @@ export const Home = () => {
 
       <div className="div--artfirst">
         <article className="art--firsthome">
-          <h1>Le meilleur pain c'est chez nous.
-            C'est maintenant qu'il faut venir !
-          </h1>
           <section>
+            <h1>Le meilleur pain c'est chez nous.
+              C'est maintenant qu'il faut venir !
+            </h1>
             <p>La fabrication de notre pain se perpétue au travers des 
               traditions ancestrales, tenue de génération en génération
               par notre famille. L'épautre et le blé sont les clefs de
@@ -236,22 +236,19 @@ export const Home = () => {
           <img
             src={stackBread}
             width='570px'
-            height='420px'
-            style={{margin: 'auto', padding: 'auto'}}
+            height='390px'
             alt='img main breed' />
         </div>
 
         <div className="div--artfirst">
           <article className="art--firsthome">
-            <h1>
-              Bienvenue chez Esteban & Celestine !
-            </h1>
             <section>
-              <p>La fabrication de notre pain se perpétue au travers des 
-                traditions ancestrales, tenue de génération en génération
-                par notre famille. L'épautre et le blé sont les clefs de
-                nos recettes pour servir à notre clientèle les meilleurs
-                produits.
+              <h1>
+                Nous confectionons vos désirs sur commandes
+              </h1>
+              <p>Nos artisants sont au service de notre clientèle. Leur compétences
+                leur permettent de réaliser tous les désirs de notre clientèle, y compris
+                les rêves les plus fous et les plus origiaux.
               </p>
               <p>
                 Les artisants de notre boulangerie sont compétents et à
@@ -259,7 +256,7 @@ export const Home = () => {
                 depuis 20 ans.  
               </p>
               <p>
-                Nous restons à disposition pour toute demande.
+                Nous restons par conséquent à votre disposition pour vos commandes.
               </p>
             </section>
           </article>
@@ -285,14 +282,49 @@ export const Home = () => {
           <nav className="divfooter--nav">
             <ul>
               <li
-                style={{marginLeft: '120px'}}
                 onClick={handleCommand}
               >
-                Commandes
+                <Link
+                  className="tocolor--letter"
+                  to="/commandes"
+                  style={{
+                    fontSize: '1.2rem',
+                    fontWeight: 'bold',
+                    textDecoration: 'none',
+                    color: 'white',
+                    '&:hover': {
+                    color: 'orange',
+                    }
+                  }}>
+                  Commandes
+                </Link>
               </li>
-              <li>Allergies</li>
-              <li>Liens utiles</li>
-              <li>Contact</li>
+              <li>
+                <Link
+                  className="tocolor--letter"
+                  to="/allergies"
+                  style={{
+                    fontSize: '1.2rem',
+                    fontWeight: 'bold',
+                    textDecoration: 'none',
+                    color: 'white'
+                  }}>
+                  Allergies
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="tocolor--letter"
+                  to="/contact"
+                  style={{
+                    fontSize: '1.2rem',
+                    fontWeight: 'bold',
+                    textDecoration: 'none',
+                    color: 'white'
+                  }}>
+                  Contact
+                </Link>
+              </li>
             </ul>
           </nav>
 
