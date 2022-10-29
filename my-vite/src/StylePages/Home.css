@@ -17,7 +17,7 @@ body {
 }
 
 .submain--home {
-  border-bottom: 1px solid burlywood;
+  border-bottom: 3px solid burlywood;
 }
 
 .div--homeh1 {
@@ -46,12 +46,6 @@ body {
   margin: auto;
   margin-top: 86px;
 }
-
-/*.hidden--frame {
-  position: relative;
-  overflow: hidden;
-  z-index: 4;
-}*/
 
 .mainnav--home {
   position: absolute;
@@ -119,7 +113,6 @@ body {
   border: 1px solid orange;
 }
 
-
 .list--cmd li {
   margin: 20px 0px !important;
 }
@@ -137,7 +130,7 @@ body {
   padding: auto;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid burlywood;
+  border-bottom: 3px solid burlywood;
   z-index: 2;
 }
 
@@ -160,7 +153,8 @@ section p {
 
 .art--firsthome {
   position: relative;
-  padding: 10px 40px;
+  padding: 20px 20px;
+  padding-bottom: 40px;
   text-align: justify;
   z-index: 1;
 }
@@ -176,13 +170,14 @@ section p {
 
 .div--cake {
   position: relative;
+  margin: auto;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 
-  border-top: 1px solid burlywood;
-  border-bottom: 1px solid burlywood;
+  border-top: 3px solid burlywood;
+  border-bottom: 3px solid burlywood;
 }
 
 .div--subcake {
@@ -192,12 +187,14 @@ section p {
 
 .art--third {
   width: 100%;
-  padding: 10px 40px;
+  padding: 0px 20px;
   text-align: justify;
 }
 
 section h1 {
-  padding: 10px 20px;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 0px 10px;
   font-size: 1.6rem;
   color: goldenrod;
   text-shadow: 1px 1px 1px saddlebrown;
@@ -213,17 +210,14 @@ section h1 {
   width: 100%;
   height: auto;
   margin: auto;
-  margin-top: 20px;
-  padding: auto;
   display: flex;
   align-items: center;
-  border-top: 1px solid burlywood;  
+  border-top: 3px solid burlywood;  
 }
 
 .div--sublasthome {
   position: relative;
   margin: auto;
-  padding: auto;
   box-shadow: 12px 12px 12px dimgrey;
 }
 
@@ -267,7 +261,7 @@ section h1 {
 
 footer {
   position: absolute;
-  margin-top: 0px;
+
   margin-bottom: 0px;
   right: 0px;
   left: 0px;
@@ -287,27 +281,27 @@ footer {
 .divfooter--nav {
   width: 100%;
   display: flex;
-  justify-content: center;
+}
+
+.divfooter--nav > ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .divfooter--nav > ul > li {
-  padding: 20px;
-  display: inline-flex;
-  justify-content: space-between;
-  font-family: 'Consolas';
-  font-size: 1.2rem;
-  font-weight: bold;
+  display: flex;
+  padding: 20px 10px;
 }
 
-.divfooter--nav li {
-  margin-right: 120px;
-}
-
-.divfooter--nav > ul > li:hover {
-  color: orange;
+.tocolor--letter:hover {
   cursor: pointer;
+  transform: scale(1.1);
+  color: orange !important;;
 }
 
+/*Icons*/
 .div--iconshome {
   display: flex;
   align-items: center;
