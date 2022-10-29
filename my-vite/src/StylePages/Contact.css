@@ -5,10 +5,9 @@ body {
 
 .main--contact {
   margin: auto 140px;
+  padding-top: 10px;
   background: #fffaf0;
   box-shadow: 0px 0px 20px dimgrey;
-
-  border: 1px solid lightgrey;
 }
 
 .div--titlecontact h1 {
@@ -33,15 +32,17 @@ body {
   margin-top: -30px;
 }
 
-.div--mapaddcontact {
-  width: 90%;
+.div--horairepluscard {
+  width: 91%;
   margin: auto;
-  padding: 40px 20px;
+  padding: 40px 0px;
+  padding-left: 60px;
+  padding-right: 60px;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
 }
-
 
 .div--horaires {
   position: relative;
@@ -52,23 +53,24 @@ body {
   align-items: left;
 
   font-size: 1.4rem;
-  background: #fff3db;
-  border-radius: 15px;
-  box-shadow:  0px 0px 10px dimgrey;
-  color: dimgrey;
 
+  border: 1px solid lightgrey;
+  background: cornsilk;
+  border-radius: 20px;
+  color: dimgrey;
   z-index: 2;
 }
 
-.div--horaires, h4, p {
-  margin: 5px 20px;
+.div--horaires, h3, h4, p {
+  margin: 5px 10px;
 }
 
+.div--horaires h4, p {
+  padding: 0px 0px;
+}
 .div--articlecontact {
-  position: relative;
-  left: 200px;
   padding: 0px 10px;
-  width: 40%;
+  width: 445px;
   height: auto;
   margin: auto 40px;
   display: flex;
@@ -76,7 +78,6 @@ body {
   background: black;
   color: whitesmoke;
 }
-
 
 .div--croissant {
   position: absolute;
@@ -98,10 +99,8 @@ body {
   padding-right: 20px;
   padding-bottom: 0px;
   padding-left: 20px;
-
   z-index: 3;
 }
-
 
 .names--proprio {
   margin: auto;
@@ -112,13 +111,17 @@ body {
   font-size: 1.4rem;
 }
 
+.map--shot {
+  width: 960px;
+  height: 530px;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
 .map--shot img {
   position: absolute;
-  width: 81%;
+  width: 960px;
   display: flex;
-  justify-content: center;
-  border: 1px solid grey;
   box-shadow: 0px 0px 10px dimgrey;
-
   z-index: 1;
 }
