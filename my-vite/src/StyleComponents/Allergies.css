@@ -1,0 +1,66 @@
+body {
+  min-width: 399px;
+  height: 100%;
+  margin: auto;
+}
+
+.main--allergies {
+  margin: 0px 140px;
+  background: #fffaf0;
+  box-shadow: 0px 0px 20px dimgrey;
+}
+
+.submain--allergies {
+  border-bottom: 3px solid burlywood;
+}
+
+.bg_mainbread {
+  position: fixed;
+  margin: auto;
+  width: 100%;
+  opacity: 0.2;
+}
+
+.bg_mainbread img {
+  width: 80%;
+  margin: auto;
+  margin-top: 86px;
+}
+
+.div--titleallergies h1 {
+  width: 80%;
+  margin: auto;
+  margin-left: 20px;
+  display: flex;
+  justify-content: left;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.2rem;
+  color: goldenrod;
+  text-shadow: 1px 1px 1px saddlebrown;
+}
+
+
+.lactose {
+  margin-left: 20px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.0rem;
+  color: goldenrod;
+  text-shadow: 1px 1px 1px saddlebrown;
+}
+
+.gluten {
+  margin-left: 20px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.0rem;
+  color: goldenrod;
+  text-shadow: 1px 1px 1px saddlebrown;
+}
+
+.lactose--art {
+  margin-left: 20px;
+}
+
+.gluten--art {
+  margin-left: 20px;
+  margin-bottom: 100px;
+}
