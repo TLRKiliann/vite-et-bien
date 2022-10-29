@@ -39,7 +39,7 @@ export const Home = () => {
           </div>
 
           <div className="div--homeh1">
-            <h1>Esteban</h1>
+            <h1 style={{paddingTop: '70px'}}>Esteban</h1>
 
             <img
               src={mainBread}
@@ -48,8 +48,7 @@ export const Home = () => {
               alt='img mainBread'
             />
 
-            <h1>Celestine</h1>
-
+            <h1 style={{paddingTop: '70px'}}>Celestine</h1>
           </div>
         
         </div>

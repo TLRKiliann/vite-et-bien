@@ -14,19 +14,14 @@ export const Allergies = () => {
           <h2 className="lactose">Lactose</h2>
           <article className="lactose--art">
             <p>
-              Gluten is a structural protein naturally found
-              in certain cereal grains. Although, strictly 
-              speaking, "gluten" only refers to wheat proteins, 
-              in medical literature it refers to the combination 
-              of prolamin and glutelin proteins naturally 
-              occurring in all grains that have been proved 
-              capable of triggering celiac disease. These 
-              include any species of wheat (such as common wheat, 
-              durum, spelt, khorasan, emmer and einkorn), barley,
-              rye and some oat cultivars, as well as any cross 
-              hybrids of these grains (such as triticale).
-              Gluten makes up 75–85% of the total protein in 
-              bread wheat.
+              Lactose is a disaccharide sugar synthesized by
+              galactose and glucose subunits and has the molecular 
+              formula C12H22O11. Lactose makes up around 2–8% of 
+              milk (by mass). The name comes from lac (gen. lactis), 
+              the Latin word for milk, plus the suffix -ose used to 
+              name sugars. The compound is a white, water-soluble, 
+              non-hygroscopic solid with a mildly sweet taste. It is 
+              used in the food industry.
             </p>
           </article>
           
@@ -49,7 +44,7 @@ export const Allergies = () => {
             </p>
           </article>  
 
-          <div className="bg_mainbread">
+          <div className="bg_mainbreadaller">
             <img 
               src={mainBread} 
               width="800px"

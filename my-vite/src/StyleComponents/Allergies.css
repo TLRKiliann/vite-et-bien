@@ -5,6 +5,7 @@ body {
 }
 
 .main--allergies {
+  padding-top: 10px;
   margin: 0px 140px;
   background: #fffaf0;
   box-shadow: 0px 0px 20px dimgrey;
@@ -14,41 +15,17 @@ body {
   border-bottom: 3px solid burlywood;
 }
 
-.bg_mainbread {
-  position: fixed;
-  margin: auto;
-  width: 100%;
-  opacity: 0.2;
-}
-
-.bg_mainbread img {
-  width: 80%;
-  margin: auto;
-  margin-top: 86px;
-}
-
-.div--titleallergies h1 {
-  width: 80%;
-  margin: auto;
+.div--titleallergies {
+  position: relative;
   margin-left: 20px;
-  display: flex;
-  justify-content: left;
+  font-size: 1.4rem;
   font-family: 'Dancing Script', cursive;
-  font-size: 2.2rem;
   color: goldenrod;
   text-shadow: 1px 1px 1px saddlebrown;
 }
-
 
 .lactose {
-  margin-left: 20px;
-  font-family: 'Dancing Script', cursive;
-  font-size: 2.0rem;
-  color: goldenrod;
-  text-shadow: 1px 1px 1px saddlebrown;
-}
-
-.gluten {
+  margin-top: 70px;
   margin-left: 20px;
   font-family: 'Dancing Script', cursive;
   font-size: 2.0rem;
@@ -60,7 +37,47 @@ body {
   margin-left: 20px;
 }
 
+.lactose--art p {
+  font-size: 1.1rem;
+  padding-right: 40px;
+  padding-left: 20px;
+  text-align: justify;
+  color: black;
+  text-shadow: 0px 0px 0px white;
+}
+
+.gluten {
+  margin-left: 20px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.0rem;
+  color: goldenrod;
+  text-shadow: 1px 1px 1px saddlebrown;
+}
+
 .gluten--art {
   margin-left: 20px;
   margin-bottom: 100px;
+}
+
+.gluten--art p {
+  font-size: 1.1rem;
+  padding-right: 40px;
+  padding-left: 20px;
+  text-align: justify;
+  color: black;
+  text-shadow: 0px 0px 0px white;
+}
+
+.bg_mainbreadaller {
+  position: fixed;
+  margin: auto;
+  top: 80px;
+  width: 100%;
+  opacity: 0.2;
+}
+
+.bg_mainbreadaller img {
+  width: 80%;
+  margin: auto;
+  margin-top: 86px;
 }
