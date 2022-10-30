@@ -32,7 +32,7 @@
 }
 
 .mainnavbar--div li {
-  margin-left: 100px;
+  margin-left: 20px;
   list-style: none;
   font-weight: bold;
 }
@@ -53,5 +53,5 @@
 }
 
 #lastsubmain--nav {
-  margin-right: 160px;
+  margin-right: 20px;
 }

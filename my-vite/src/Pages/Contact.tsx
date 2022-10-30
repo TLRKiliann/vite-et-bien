@@ -1,3 +1,4 @@
+import React from 'react';
 import mainBread from '../assets/images/bread_title.png';
 import mapShot from '../assets/images/map_shot.png';
 import croissImg from '../assets/images/croissant.jpg';
@@ -17,7 +18,7 @@ export const Contact = () => {
             <img 
               src={mainBread} 
               width="800px"
-              height="700px"
+              height="760px"
               alt='no bg for title' />
           </div>
 

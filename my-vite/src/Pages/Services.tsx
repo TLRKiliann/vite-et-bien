@@ -1,4 +1,4 @@
-
+import React from 'react';
 import mainBread from '../assets/images/bread_title.png';
 import '../StylePages/Services.css';
 import painChoc from '../assets/images/pain_choc.png';
@@ -27,7 +27,7 @@ export const Services = () => {
             <img 
               src={mainBread} 
               width="800px"
-              height="700px"
+              height="760px"
               alt='no bg for title' />
           </div>
 
@@ -80,7 +80,7 @@ export const Services = () => {
                 width="330px"
                 height="200px"
                 alt="no patisserie" />
-              <legend>Nos éclairs aux divers Gôuts</legend>
+              <legend>Nos éclairs aux divers Parfums</legend>
             </div>
 
             <div className="submain--imgserv">
@@ -125,15 +125,6 @@ export const Services = () => {
                 height="200px"
                 alt="no patisserie" />
               <legend>Forêt Noir</legend>
-            </div>
-
-            <div className="submain--imgserv">
-              <img
-                src={chocGat}
-                width="250px"
-                height="200px"
-                alt="no patisserie" />
-              <legend>Gâteau au Chocolat</legend>
             </div>
 
             <div className="submain--imgserv">

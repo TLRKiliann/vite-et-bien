@@ -1,6 +1,5 @@
-/*@import url(https://fonts.googleapis.com/css?family=Roboto);
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-HTML
+/*HTML
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto"/>
 */
 
@@ -16,40 +15,66 @@ body {
   box-shadow: 0px 0px 20px dimgrey;
 }
 
-.submain--home {
-  border-bottom: 3px solid burlywood;
-}
-
-.div--homeh1 {
-  position: relative;
-  margin: auto;
-  padding: auto;
-  width: 68%;
-
-
-  display: flex;
-  align-items: center;
-
-  justify-content: center;
-  font-family: 'Dancing Script', cursive;
-  font-size: 2.2rem;
-  color: goldenrod;
-  text-shadow: 1px 1px 1px saddlebrown;
-
-}
-
-
 .bg_mainbread {
   position: fixed;
   margin: auto;
   width: 100%;
-  opacity: 0.2;
+  opacity: 0.15;
 }
 
 .bg_mainbread img {
   width: 80%;
   margin: auto;
   margin-top: 86px;
+}
+
+.div--homeh1 {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff3db;
+  border-top: 1px solid burlywood;
+  border-bottom: 1px solid burlywood;
+
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.2rem;
+  color: goldenrod;
+  text-shadow: 1px 1px 1px saddlebrown;
+}
+
+
+
+
+.baguette {
+  position: absolute;
+  width: 15%;
+  margin-top: 220px;
+  margin-left: -20px;
+  margin-bottom: 20px;
+
+  transform: rotate(90deg);
+  z-index: 6;
+}
+
+.baguette img {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+.span--title {
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 .mainnav--home {
@@ -131,58 +156,79 @@ body {
   position: relative;
   width: 100%;
   height: auto;
-  margin: auto;
-  padding: auto;
+  padding-bottom: 40px;
   display: flex;
   align-items: center;
-  border-bottom: 3px solid burlywood;
+  border-bottom: 2px solid burlywood;
   z-index: 2;
-}
-
-section p {
-  font-size: 1.1rem;
-  color: black;
 }
 
 .div--subbreadhome {
   margin: auto;
+  margin-left: 40px;
   padding: auto;
+
   display: flex;
   box-shadow: 12px 12px 12px dimgrey;
 }
 
 .div--artfirst {
-  position: relative;
   width: 100%;
 }
 
 .art--firsthome {
-  position: relative;
-  padding: 20px 20px;
-  padding-bottom: 40px;
-  text-align: justify;
-  z-index: 1;
+  padding: 10px 40px;
 }
 
 .art--firsthome h1 {
+  position: relative;
+  text-align: justify;
   color: goldenrod;
   text-shadow: 1px 1px 1px saddlebrown;
 }
 
-/*.div--artfirst article {
-  border:  1px solid blue;
-}*/
+section p {
+  font-size: 1.1rem;
+  text-align: justify;
+  text-indent: 10px;
+  color: black;
+}
+
+.div--artintermed {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px 40px;
+  background: #fff3db;
+  border-top: 1px solid burlywood;
+  border-bottom: 1px solid burlywood;
+  z-index: 2;
+}
+
+.art--artinter h1 {
+  text-align: justify;
+  color: goldenrod;
+  text-shadow: 1px 1px 1px saddlebrown;
+}
+
+.art--artinter p {
+  text-align: justify;
+  font-size: 1.1rem;
+}
 
 .div--cake {
   position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin: auto;
+
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 
-  border-top: 3px solid burlywood;
-  border-bottom: 3px solid burlywood;
+  border-top: 2px solid burlywood;
+  border-bottom: 2px solid burlywood;
 }
 
 .div--subcake {
@@ -190,9 +236,13 @@ section p {
   display: flex;
 }
 
+.div--cakeimg {
+  margin-right: 40px;  
+}
+
 .art--third {
   width: 100%;
-  padding: 0px 20px;
+  padding: 20px 40px;
   text-align: justify;
 }
 
@@ -205,24 +255,35 @@ section h1 {
   text-shadow: 1px 1px 1px saddlebrown;
 }
 
+.art--third p {
+}
+
+.div--cakeimg {
+  padding: 20px 0px;
+}
+
 .div--cakeimg img {
   position: relative;
   display: flex;
-  box-shadow: -12px 12px 12px dimgrey;
+  box-shadow: 12px 12px 12px dimgrey;
 }
 
 .div--finalhome {
   width: 100%;
   height: auto;
   margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
   display: flex;
   align-items: center;
-  border-top: 3px solid burlywood;  
+  border-top: 2px solid burlywood;  
 }
 
 .div--sublasthome {
   position: relative;
+  display: flex;
   margin: auto;
+  margin-left: 40px;
   box-shadow: 12px 12px 12px dimgrey;
 }
 
@@ -266,11 +327,9 @@ section h1 {
 
 footer {
   position: absolute;
-
   margin-bottom: 0px;
   right: 0px;
   left: 0px;
-
   display: flex;
   background: black;
   color: whitesmoke;
