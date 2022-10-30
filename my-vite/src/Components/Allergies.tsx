@@ -49,7 +49,7 @@ export const Allergies = () => {
             <img 
               src={mainBread} 
               width="800px"
-              height="700px"
+              height="760px"
               alt='no bg for title' />
           </div>
         </div>

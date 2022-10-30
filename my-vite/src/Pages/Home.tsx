@@ -8,6 +8,7 @@ import stackBread from '../assets/images/ness.png';
 import cakeImg from '../assets/images/cake.png';
 import gatLogo from '../assets/images/gateau_logo.png';
 import clickMe from '../assets/images/fig_bakery.png';
+import baguette from '../assets/images/baguette.png';
 import '../StylePages/Home.scss';
 
 
@@ -34,15 +35,15 @@ export const Home = () => {
             <img 
               src={mainBread} 
               width="800px"
-              height="700px"
+              height="760px"
               alt='no bg for title' />
           </div>
 
           <div className="div--homeh1">
-            <div style={{marginTop: '5%', marginLeft: '23%'}}>
-              <h1>Esteban</h1>
+            <div>
+              <span className="span--title">Esteban</span>
             </div>
-            <div style={{marginRight: '-30px', marginLeft: '-10px'}}>
+            <div>
               <img
                 src={mainBread}
                 width="240px"
@@ -50,10 +51,17 @@ export const Home = () => {
                 alt='img mainBread'
               />
             </div>
-            <div style={{marginTop: '5%', marginRight: '22%'}}>
-              <h1>Celestine</h1>
+            <div>
+              <span className="span--title">Celestine</span>
+            </div>
+
+            <div className="baguette">
+              <img 
+                src={baguette}
+                alt="baguette" />
             </div>
           </div>
+
         
         </div>
 
@@ -111,8 +119,8 @@ export const Home = () => {
         <div className="div--subbreadhome">
           <img
             src={firstBread}
-            width='550px'
-            height='390px'
+            width='450px'
+            height='290px'
             style={{margin: 'auto', padding: 'auto'}}
             alt='img main breed' />
         </div>
@@ -129,11 +137,13 @@ export const Home = () => {
                 nos recettes pour servir à notre clientèle les meilleurs
                 produits.
               </p>
+              <br />
               <p>
                 Les artisants de notre boulangerie sont compétents et à
                 l'écoute de notre clientèle. Nous sommes à votre service
                 depuis 20 ans.  
               </p>
+              <br />
               <p>
                 Nous restons à disposition pour toute demande.
               </p>
@@ -156,6 +166,7 @@ export const Home = () => {
               nos recettes pour servir à notre clientèle les meilleurs
               produits.
             </p>
+            <br />
             <p>
               Les artisants de notre boulangerie sont compétents et à
               l'écoute de notre clientèle. Nous sommes à votre service
@@ -184,8 +195,9 @@ export const Home = () => {
               <p>
                 Les artisants de notre boulangerie sont compétents et à
                 l'écoute de notre clientèle. Nous sommes à votre service
-                depuis 20 ans.  
-              </p> 
+                depuis 20 ans.
+              </p>
+              <br />
               <p>La fabrication de notre pain se perpétue au travers des 
                 traditions ancestrales, tenue de génération en génération
                 par notre famille. L'épautre et le blé sont les clefs de
@@ -200,8 +212,8 @@ export const Home = () => {
 
           <img
             className="img--cake"
-            width='450px'
-            height='500px'
+            width='350px'
+            height='400px'
             src={cake}
             alt='img cake'
           />
@@ -221,6 +233,7 @@ export const Home = () => {
               nos recettes pour servir à notre clientèle les meilleurs
               produits.
             </p>
+            <br />
             <p>
               Les artisants de notre boulangerie sont compétents et à
               l'écoute de notre clientèle. Nous sommes à votre service
@@ -235,12 +248,12 @@ export const Home = () => {
         <div className="div--sublasthome">
           <img
             src={stackBread}
-            width='570px'
-            height='390px'
+            width='450px'
+            height='300px'
             alt='img main breed' />
         </div>
 
-        <div className="div--artfirst">
+        <div style={{marginTop: "20px"}} className="div--artfirst">
           <article className="art--firsthome">
             <section>
               <h1>
@@ -250,11 +263,13 @@ export const Home = () => {
                 leur permettent de réaliser tous les désirs de notre clientèle, y compris
                 les rêves les plus fous et les plus origiaux.
               </p>
+              <br />
               <p>
                 Les artisants de notre boulangerie sont compétents et à
                 l'écoute de notre clientèle. Nous sommes à votre service
                 depuis 20 ans.  
               </p>
+              <br />
               <p>
                 Nous restons par conséquent à votre disposition pour vos commandes.
               </p>
@@ -288,7 +303,7 @@ export const Home = () => {
                   className="tocolor--letter"
                   to="/commandes"
                   style={{
-                    fontSize: '1.2rem',
+                    fontSize: '1.4rem',
                     fontWeight: 'bold',
                     textDecoration: 'none',
                     color: 'white',
@@ -304,7 +319,7 @@ export const Home = () => {
                   className="tocolor--letter"
                   to="/allergies"
                   style={{
-                    fontSize: '1.2rem',
+                    fontSize: '1.4rem',
                     fontWeight: 'bold',
                     textDecoration: 'none',
                     color: 'white'
@@ -317,7 +332,7 @@ export const Home = () => {
                   className="tocolor--letter"
                   to="/contact"
                   style={{
-                    fontSize: '1.2rem',
+                    fontSize: '1.4rem',
                     fontWeight: 'bold',
                     textDecoration: 'none',
                     color: 'white'
