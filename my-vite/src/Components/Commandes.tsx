@@ -71,11 +71,11 @@ export const Commandes = () => {
 
               <div className="div--labinput">  
                 <label>E-mail :</label>
-                <input type='text' placeholder="votre.email@mail.com" />
+                <input type='email' placeholder="votre.email@mail.com" />
               </div>
 
               <div className="wrap--select">
-                <label for="pains" className="label--cmd">Nos pains :</label>
+                <label htmlFor="pains" className="label--cmd">Nos pains :</label>
 
                 <select name="pains" id="pains">
                   <option value="campagne">Pain Campagnard</option>
@@ -87,7 +87,7 @@ export const Commandes = () => {
               </div>
 
               <div className="wrap--select">
-                <label for="patiss" className="label--cmd">Nos Pâtisseries :</label>
+                <label htmlFor="patiss" className="label--cmd">Nos Pâtisseries :</label>
 
                 <select name="patiss" id="patiss">
                   <option value="croiss">Croissants</option>
@@ -103,7 +103,7 @@ export const Commandes = () => {
               </div>
 
               <div className="wrap--select">
-                <label for="assort" className="label--cmd">Nos Spécialités :</label>
+                <label htmlFor="assort" className="label--cmd">Nos Spécialités :</label>
 
                 <select name="assort" id="assort">
                   <option value="assortiment">Plateau d'Assortiments</option>
@@ -114,7 +114,7 @@ export const Commandes = () => {
               </div>
 
               <button className="btn--cmd">
-                Enregistrer
+                Envoyer
               </button>
 
             </form>

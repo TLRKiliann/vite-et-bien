@@ -1,4 +1,8 @@
 import React from 'react';
+import { BsLinkedin } from 'react-icons/bs';
+import { BsInstagram } from 'react-icons/bs';
+import { BsYoutube } from 'react-icons/bs';
+import { ImFacebook2 } from 'react-icons/im';
 import mainBread from '../assets/images/bread_title.png';
 import mapShot from '../assets/images/map_shot.png';
 import croissImg from '../assets/images/croissant.jpg';
@@ -11,7 +15,7 @@ export const Contact = () => {
       
       <div className="submain--contact">
         <div className="div--titlecontact">
-          <h1>
+          <h1 className="title--contact">
             Contact
           </h1>
           <div className="bg_mainbreadcontact">
@@ -25,22 +29,34 @@ export const Contact = () => {
           <div className="div--horairepluscard">
 
             <div className="div--horaires">
-              <h3>Horaires d'ouverture :</h3>
-              <h4>Matin</h4>
-              <p>08h00 - 12h00</p>
-              <h4>Après-midi</h4>
-              <p>13h00 - 19h00</p>
+
+              <div className="div--subhoraires">
+                <h3>Horaires d'ouverture :</h3>
+                <h4>Matin</h4>
+                <p>08h00 - 12h00</p>
+                <h4>Après-midi</h4>
+                <p>13h00 - 19h00</p>
+              </div>
+
             </div>
+          </div>
 
             <div className="div--articlecontact">
 
               <div className="div--croissant">
-
                 <img
                   src={croissImg}
-                  width="450px"
-                  height="260px"
+                  width="580px"
+                  height="370px"
                   alt="no croissant" />
+              </div>
+
+              <div className="map--shot">
+                <img
+                  src={mapShot}
+                  width="560px"
+                  height="350px"
+                  alt="no map" />
               </div>
 
               <article className="art--h4p">
@@ -55,15 +71,23 @@ export const Contact = () => {
                 
               </article>
             </div>
+
+            <div className="socio--icons">
+              <span>
+                <BsInstagram size={68} style={{color: 'goldenrod'}} />
+              </span>
+              <span>
+                <BsYoutube size={68} style={{color: 'goldenrod'}} />
+              </span>
+              <span>
+                <BsLinkedin size={68} style={{color: 'goldenrod'}} />
+              </span>
+              <span>
+                <ImFacebook2 size={68} style={{color: 'goldenrod'}} />
+              </span>
+            </div>
+
           </div>
-          <div className="map--shot">
-            <img
-              src={mapShot}
-              width="960px"
-              height="530px"
-              alt="no map" />
-          </div>
-        </div>
 
       </div>
     </div>

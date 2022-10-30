@@ -22,7 +22,7 @@ export const NavBar = () => {
       </li>
       <li>
         <NavLink className="submainnavbar--div" to='/services'>
-          Services
+          Vitrine
         </NavLink>
       </li>
       <li id="lastsubmain--nav">
