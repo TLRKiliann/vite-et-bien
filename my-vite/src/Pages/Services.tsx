@@ -21,7 +21,7 @@ export const Services = () => {
       <div className="submain--service">
         <div className="div--titleservice">
           <h1>
-            Services
+            Vitrine
           </h1>
           <div className="bg_mainbreadservice">
             <img 
