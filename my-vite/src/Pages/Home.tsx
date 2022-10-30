@@ -8,7 +8,7 @@ import stackBread from '../assets/images/ness.png';
 import cakeImg from '../assets/images/cake.png';
 import gatLogo from '../assets/images/gateau_logo.png';
 import clickMe from '../assets/images/fig_bakery.png';
-import '../StylePages/Home.css';
+import '../StylePages/Home.scss';
 
 
 export const Home = () => {
@@ -39,16 +39,20 @@ export const Home = () => {
           </div>
 
           <div className="div--homeh1">
-            <h1 style={{paddingTop: '70px'}}>Esteban</h1>
-
-            <img
-              src={mainBread}
-              width="240px"
-              height="140px"
-              alt='img mainBread'
-            />
-
-            <h1 style={{paddingTop: '70px'}}>Celestine</h1>
+            <div style={{marginTop: '5%', marginLeft: '23%'}}>
+              <h1>Esteban</h1>
+            </div>
+            <div style={{marginRight: '-30px', marginLeft: '-10px'}}>
+              <img
+                src={mainBread}
+                width="240px"
+                height="140px"
+                alt='img mainBread'
+              />
+            </div>
+            <div style={{marginTop: '5%', marginRight: '22%'}}>
+              <h1>Celestine</h1>
+            </div>
           </div>
         
         </div>
@@ -140,8 +144,8 @@ export const Home = () => {
       </div>
 
 
-      <div className="div--artfirst">
-        <article className="art--firsthome">
+      <div className="div--artintermed">
+        <article className="art--artinter">
           <section>
             <h1>Le meilleur pain c'est chez nous.
               C'est maintenant qu'il faut venir !
@@ -176,6 +180,7 @@ export const Home = () => {
                 nos recettes pour servir à notre clientèle les meilleurs
                 produits.
               </p>
+              <br />
               <p>
                 Les artisants de notre boulangerie sont compétents et à
                 l'écoute de notre clientèle. Nous sommes à votre service
@@ -187,11 +192,6 @@ export const Home = () => {
                 nos recettes pour servir à notre clientèle les meilleurs
                 produits.
               </p>
-              <p>
-                Les artisants de notre boulangerie sont compétents et à
-                l'écoute de notre clientèle. Nous sommes à votre service
-                depuis 20 ans.  
-              </p> 
             </section>
           </article>
         </div>
@@ -209,8 +209,8 @@ export const Home = () => {
 
       </div>
 
-      <div className="div--artfirst">
-        <article className="art--firsthome">
+      <div className="div--artintermed">
+        <article className="art--artinter">
           <section>
             <h1>Le meilleur pain c'est chez nous.
               C'est maintenant qu'il faut venir !

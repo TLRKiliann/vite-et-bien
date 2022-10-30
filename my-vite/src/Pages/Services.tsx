@@ -1,4 +1,4 @@
-
+import React from 'react';
 import mainBread from '../assets/images/bread_title.png';
 import '../StylePages/Services.css';
 import painChoc from '../assets/images/pain_choc.png';

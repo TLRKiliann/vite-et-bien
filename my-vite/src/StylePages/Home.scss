@@ -1,6 +1,5 @@
-/*@import url(https://fonts.googleapis.com/css?family=Roboto);
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-HTML
+/*HTML
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto"/>
 */
 
@@ -17,33 +16,35 @@ body {
 }
 
 .submain--home {
-  border-bottom: 3px solid burlywood;
+  margin-bottom: 20px;
+  border-bottom: 2px solid burlywood;
 }
 
 .div--homeh1 {
-  position: relative;
-  margin: auto;
-  padding: auto;
-  width: 68%;
 
+  width: 100%;
+  margin: auto;
+  margin-bottom: 20px;
 
   display: flex;
   align-items: center;
 
-  justify-content: center;
+  background: #fbe6bb;
+
   font-family: 'Dancing Script', cursive;
   font-size: 2.2rem;
   color: goldenrod;
   text-shadow: 1px 1px 1px saddlebrown;
 
-}
+  border-bottom: 1px solid burlywood;
 
+}
 
 .bg_mainbread {
   position: fixed;
   margin: auto;
   width: 100%;
-  opacity: 0.2;
+  opacity: 0.15;
 }
 
 .bg_mainbread img {
@@ -131,11 +132,10 @@ body {
   position: relative;
   width: 100%;
   height: auto;
-  margin: auto;
-  padding: auto;
+  padding-bottom: 20px;
   display: flex;
   align-items: center;
-  border-bottom: 3px solid burlywood;
+  border-bottom: 2px solid burlywood;
   z-index: 2;
 }
 
@@ -147,6 +147,7 @@ section p {
 .div--subbreadhome {
   margin: auto;
   padding: auto;
+
   display: flex;
   box-shadow: 12px 12px 12px dimgrey;
 }
@@ -158,8 +159,7 @@ section p {
 
 .art--firsthome {
   position: relative;
-  padding: 20px 20px;
-  padding-bottom: 40px;
+  padding: 10px 40px;
   text-align: justify;
   z-index: 1;
 }
@@ -169,20 +169,35 @@ section p {
   text-shadow: 1px 1px 1px saddlebrown;
 }
 
-/*.div--artfirst article {
-  border:  1px solid blue;
-}*/
+.div--artintermed {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px 40px;
+  background: #fbe6bb;
+  border-top: 1px solid burlywood;
+  border-bottom: 1px solid burlywood;
+  z-index: 2;
+}
+
+.art--artinter p {
+  text-align: justify;
+  text-indent: 10px;
+  font-size: 1.1rem;
+}
 
 .div--cake {
   position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin: auto;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 
-  border-top: 3px solid burlywood;
-  border-bottom: 3px solid burlywood;
+  border-top: 2px solid burlywood;
+  border-bottom: 2px solid burlywood;
 }
 
 .div--subcake {
@@ -192,7 +207,7 @@ section p {
 
 .art--third {
   width: 100%;
-  padding: 0px 20px;
+  padding: 20px 40px;
   text-align: justify;
 }
 
@@ -205,6 +220,10 @@ section h1 {
   text-shadow: 1px 1px 1px saddlebrown;
 }
 
+.art--third p {
+  text-indent: 10px;
+}
+
 .div--cakeimg img {
   position: relative;
   display: flex;
@@ -215,9 +234,11 @@ section h1 {
   width: 100%;
   height: auto;
   margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
   display: flex;
   align-items: center;
-  border-top: 3px solid burlywood;  
+  border-top: 2px solid burlywood;  
 }
 
 .div--sublasthome {

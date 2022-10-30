@@ -1,3 +1,4 @@
+import React from 'react';
 import mainBread from '../assets/images/bread_title.png';
 import mapShot from '../assets/images/map_shot.png';
 import croissImg from '../assets/images/croissant.jpg';
