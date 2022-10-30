@@ -2,6 +2,7 @@ import React from 'react';
 import { BiTime } from 'react-icons/bi';
 import { TbTruckDelivery } from 'react-icons/tb';
 import mainBread from '../assets/images/bread_title.png';
+//import baguette from '../assets/images/baguette.png';
 import '../StyleComponents/Commandes.css';
 
 export const Commandes = () => {
