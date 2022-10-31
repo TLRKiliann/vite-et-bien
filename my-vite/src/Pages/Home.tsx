@@ -9,6 +9,7 @@ import cakeImg from '../assets/images/cake.png';
 import gatLogo from '../assets/images/gateau_logo.png';
 import clickMe from '../assets/images/fig_bakery.png';
 import baguette from '../assets/images/baguette.png';
+import secBaguette from '../assets/images/baguette2.png';
 import '../StylePages/Home.scss';
 
 
@@ -26,7 +27,24 @@ export const Home = () => {
 
   return (
     <div className="main--home">
-      
+
+      <div className="anim--intro">
+        <div className="subanim--intro">
+          <div className="div--anim">
+            <span className="anim--span">
+              Wellcome to Esteban & Celestine
+            </span>
+          </div>
+          <img src={secBaguette}
+            className="baguette2"
+            width="550px"
+            height="300px"
+            alt="baguette2.png"
+          />
+        </div>
+
+      </div>  
+
       <div className="submain--home">
 
         <div className="div--titlecontact">
