@@ -7,7 +7,7 @@ import { Contact } from './Pages/Contact';
 import { Allergies } from './Components/Allergies';
 import { Commandes } from './Components/Commandes';
 import bgImg from './assets/images/bread_bg.png';
-import './App.css'
+import './App.scss'
 
 
 const App = () => {
