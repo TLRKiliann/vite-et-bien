@@ -1,4 +1,6 @@
 import React from 'react';
+import { CiWheat } from 'react-icons/ci';
+import { GiMilkCarton } from 'react-icons/gi';
 import mainBread from '../assets/images/bread_title.png';
 import '../StyleComponents/Allergies.css';
 
@@ -12,7 +14,9 @@ export const Allergies = () => {
         <div className="div--titleallergies">
           <h1>Allergies</h1>
 
-          <h2 className="lactose">Lactose</h2>
+          <h2 className="lactose">Lactose
+            <GiMilkCarton size={38} style={{marginBottom: '-5px',
+            marginLeft: '10px'}}/></h2>
           <article className="lactose--art">
             <p>
               Lactose is a disaccharide sugar synthesized by
@@ -26,7 +30,9 @@ export const Allergies = () => {
             </p>
           </article>
           
-          <h2 className="gluten">Gluten</h2>
+          <h2 className="gluten">Gluten
+            <CiWheat size={38} style={{marginBottom: '-5px',
+            marginLeft: '10px'}}/></h2>
           <article className="gluten--art">
             <p>
               Gluten is a structural protein naturally found

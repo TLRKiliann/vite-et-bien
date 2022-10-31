@@ -57,7 +57,6 @@ body {
   margin-bottom: 20px;
 
   background: #fff3db;
-
   border-top:  1px solid burlywood;
   border-bottom:  1px solid burlywood;
 }
@@ -74,6 +73,6 @@ body {
 }
 
 legend {
+  margin: 2px 0px;
   text-align: center;
-
 }

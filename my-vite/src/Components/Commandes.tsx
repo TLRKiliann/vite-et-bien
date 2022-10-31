@@ -21,7 +21,7 @@ export const Commandes = () => {
               alt='no bg for title' />
           </div>
 
-          <h1 style={{marginLeft: '20px'}}>Commandes</h1>
+          <h1>Commandes</h1>
 
           <div className="delivery">
             <h2 className="delais">
@@ -120,9 +120,9 @@ export const Commandes = () => {
             </form>
 
           </div>
-          
-          <div className="interstice--cmd">
-          </div>
+
+            <div className="interstice--cmd">
+            </div>
 
         </div>
       </div>

@@ -28,7 +28,7 @@ body {
 
   animation-name: intro;
   animation-delay: 0s;
-  animation-duration: 3.5s;
+  animation-duration: 4s;
   animation-iteration-count: 1;
   animation-timing-function: ease;
   z-index: 7;
@@ -92,7 +92,7 @@ body {
 
   animation-name: baguet;
   animation-delay: 1.5s;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
   animation-iteration-count: 1;
   animation-timing-function: ease;
 }
@@ -102,9 +102,6 @@ body {
     opacity: 0;
   }
   50% {
-    opacity: 1;
-  }
-  90% {
     opacity: 1;
   }
   100% {
