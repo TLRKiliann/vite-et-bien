@@ -253,7 +253,7 @@ export const Home = () => {
             alt='img main breed' />
         </div>
 
-        <div style={{marginTop: "20px"}} className="div--artfirst">
+        <div className="div--artfirst">
           <article className="art--firsthome">
             <section>
               <h1>
