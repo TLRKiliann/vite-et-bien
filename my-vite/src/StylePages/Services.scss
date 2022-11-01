@@ -1,3 +1,12 @@
+$color-dim: #696969;
+$color-lightgrey: #CDCDCD;
+$color-grey: #AAAAAA;
+$color-lightbrown: #fff3db;
+$color-burly: #DEB887;
+$color-saddle: #8B4513;
+$color-golden: #DAA520;
+
+
 body {
   min-width: 399px;
   margin: auto;
@@ -6,9 +15,9 @@ body {
 .main--service {
   margin: auto 140px;
   background: #fffaf0;
-  box-shadow: 0px 0px 20px dimgrey;
+  box-shadow: 0px 0px 20px $color-dim;
 
-  border: 1px solid lightgrey;
+  border: 1px solid $color-lightgrey;
 }
 
 .div--titleservice h1 {
@@ -18,8 +27,8 @@ body {
   margin-left: 20px;
   font-size: 2.8rem;
   font-family: 'Dancing Script', cursive;
-  color: goldenrod;
-  text-shadow: 2px 1px 2px saddlebrown;
+  color: $color-golden;
+  text-shadow: 2px 1px 2px $color-saddle;
 }
 
 .bg_mainbreadservice {
@@ -42,8 +51,8 @@ body {
   margin: 10px 20px;
   font-size: 2rem;
   font-family: 'Dancing Script', cursive;
-  text-shadow: 1px 0px 1px saddlebrown;
-  color: goldenrod;
+  text-shadow: 1px 0px 1px $color-saddle;
+  color: $color-golden;
 }
 
 .main--imgserv {
@@ -56,9 +65,9 @@ body {
   justify-content: space-around;
   margin-bottom: 20px;
 
-  background: #fff3db;
-  border-top:  1px solid burlywood;
-  border-bottom:  1px solid burlywood;
+  background: $color-lightbrown;
+  border-top:  1px solid $color-burly;
+  border-bottom:  1px solid $color-burly;
 }
 
 .submain--imgserv {
@@ -66,10 +75,10 @@ body {
   padding-right: 20px;
   padding-bottom: 5px;
   padding-left: 20px;
-  border: 1px solid burlywood;
+  border: 1px solid $color-burly;
   border-radius: 10px 10px 0px 0px;
   background: #fbe6bb;
-  box-shadow: 0px 0px 10px grey;
+  box-shadow: 0px 0px 10px $color-grey;
 }
 
 legend {

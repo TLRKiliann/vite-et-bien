@@ -2,7 +2,7 @@ import React from 'react';
 import { CiWheat } from 'react-icons/ci';
 import { GiMilkCarton } from 'react-icons/gi';
 import mainBread from '../assets/images/bread_title.png';
-import '../StyleComponents/Allergies.css';
+import '../StyleComponents/Allergies.scss';
 
 
 export const Allergies = () => {

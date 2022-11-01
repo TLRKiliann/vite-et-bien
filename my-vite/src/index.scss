@@ -1,3 +1,11 @@
+@import './App.scss';
+@import './StylePages/Home.scss';
+@import './StylePages/Contact.scss';
+@import './StylePages/Service.scss';
+@import './StyleComponents/Allergies.scss';
+@import './StyleComponents/Commandes.scss';
+@import './StyleComponents/NavBar.scss';
+
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;

@@ -6,7 +6,7 @@ import { ImFacebook2 } from 'react-icons/im';
 import mainBread from '../assets/images/bread_title.png';
 import mapShot from '../assets/images/map_shot.png';
 import croissImg from '../assets/images/croissant.jpg';
-import '../StylePages/Contact.css';
+import '../StylePages/Contact.scss';
 
 
 export const Contact = () => {

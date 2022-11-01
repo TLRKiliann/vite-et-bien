@@ -1,8 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import '../StyleComponents/NavBar.css';
 import superBread from '../assets/images/super_bread.png';
 import mainBread from '../assets/images/bread_title.png';
+import '../StyleComponents/NavBar.scss';
 
 
 export const NavBar = () => {

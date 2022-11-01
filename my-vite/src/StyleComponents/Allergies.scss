@@ -1,3 +1,11 @@
+$color-dim: #696969;
+$color-lightbrown: #fff3db;
+$color-burly: #DEB887;
+$color-saddle: #8B4513;
+$color-white: #ffffff;
+$color-golden: #DAA520;
+
+
 body {
   min-width: 399px;
   margin: auto;
@@ -8,7 +16,7 @@ body {
   padding-top: 10px;
   margin: 0px 140px;
   background: #fffaf0;
-  box-shadow: 0px 0px 20px dimgrey;
+  box-shadow: 0px 0px 20px $color-dim;
 }
 
 .submain--allergies {
@@ -21,8 +29,8 @@ body {
   margin-left: 20px;
   font-size: 2.8rem;
   font-family: 'Dancing Script', cursive;
-  color: goldenrod;
-  text-shadow: 2px 1px 2px saddlebrown;
+  color: $color-golden;
+  text-shadow: 2px 1px 2px $color-saddle;
 }
 
 .lactose {
@@ -30,16 +38,16 @@ body {
   margin-left: 20px;
   font-family: 'Dancing Script', cursive;
   font-size: 2.0rem;
-  color: goldenrod;
-  text-shadow: 1px 1px 1px saddlebrown;
+  color: $color-golden;
+  text-shadow: 1px 1px 1px $color-saddle;
 }
 
 .lactose--art {
   position: relative;
   width: 100%;
   margin: auto;
-  background:  #fff3db;
-  border: 1px solid burlywood;
+  background: $color-lightbrown;
+  border: 1px solid $color-burly;
   z-index: 3;
 }
 
@@ -50,15 +58,15 @@ body {
   text-align: justify;
   text-indent: 10px;
   color: black;
-  text-shadow: 0px 0px 0px white;
+  text-shadow: 0px 0px 0px $color-white;
 }
 
 .gluten {
   margin-left: 20px;
   font-family: 'Dancing Script', cursive;
   font-size: 2.0rem;
-  color: goldenrod;
-  text-shadow: 1px 1px 1px saddlebrown;
+  color: $color-golden;
+  text-shadow: 1px 1px 1px $color-saddle;
 }
 
 .gluten--art {
@@ -66,20 +74,18 @@ body {
   width: 100%;
   margin: auto;
   margin-bottom: 20px;
-  background:  #fff3db;
-  border: 1px solid burlywood;
+  background: $color-lightbrown;
+  border: 1px solid $color-burly;
   z-index: 3;
-
-}
-
-.gluten--art p {
-  font-size: 1.1rem;
-  padding-right: 40px;
-  padding-left: 20px;
-  text-align: justify;
-  text-indent: 10px;
-  color: black;
-  text-shadow: 0px 0px 0px white;
+  &:p {
+    font-size: 1.1rem;
+    padding-right: 40px;
+    padding-left: 20px;
+    text-align: justify;
+    text-indent: 10px;
+    color: black;
+    text-shadow: 0px 0px 0px $color-white;
+  }
 }
 
 .bg_mainbreadaller {
@@ -88,10 +94,9 @@ body {
   top: 80px;
   width: 100%;
   opacity: 0.2;
-}
-
-.bg_mainbreadaller img {
-  width: 80%;
-  margin: auto;
-  margin-top: 86px;
+  &:img {
+    width: 80%;
+    margin: auto;
+    margin-top: 86px;
+  }
 }

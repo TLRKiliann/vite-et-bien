@@ -1,7 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-/*HTML
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto"/>
-*/
+$size-40: 40px;
+$color-white: #ffffff;
+$color-burly: #DEB887;
+$color-dimgrey: #696969;
+$color-saddle: #8B4513;
+$bg-lightbeige: #fbe6bb;
+$bg-lightyellow: #fffaf0;
+
 
 body {
   min-width: 399px;
@@ -11,8 +15,8 @@ body {
 
 .main--home {
   margin: 0px 140px;
-  background: #fffaf0;
-  box-shadow: 0px 0px 20px dimgrey;
+  background: $bg-lightyellow;
+  box-shadow: 0px 0px 20px $color-dimgrey;
 }
 
 //Animation Intro
@@ -71,7 +75,7 @@ body {
   display: flex;
   font-size: 3rem;
   font-weight: bold;
-  color: white;
+  color: $color-white;
 }
 
 @keyframes span-rotation {
@@ -108,7 +112,6 @@ body {
     opacity: 0;
   }
 }
-
 
 @media screen and (max-width: 1400px) {
   .div--anim {
@@ -155,18 +158,18 @@ body {
   padding-bottom: 30px;
   width: 100%;
   margin: auto;
-  margin-bottom: 40px;
+  margin-bottom: $size-40;
   display: flex;
   align-items: center;
   justify-content: center;
   background: #fff3db;
-  border-top: 1px solid burlywood;
-  border-bottom: 1px solid burlywood;
+  border-top: 1px solid $color-burly;
+  border-bottom: 1px solid $color-burly;
 
   font-family: 'Dancing Script', cursive;
   font-size: 2.2rem;
   color: goldenrod;
-  text-shadow: 1px 1px 1px saddlebrown;
+  text-shadow: 1px 1px 1px $color-saddle;
 }
 
 .baguette {
@@ -187,9 +190,6 @@ body {
   justify-content: center;
 }
 
-
-
-
 .span--title {
   font-size: 3rem;
   font-weight: bold;
@@ -201,12 +201,12 @@ body {
   right: 0px;
   width: 20%;
 
-  background: #fbe6bb;
-  border-top: 1px solid saddlebrown;
-  border-bottom: 1px solid saddlebrown;
-  border-left: 1px solid saddlebrown;
+  background: $bg-lightbeige;
+  border-top: 1px solid $color-saddle;
+  border-bottom: 1px solid $color-saddle;
+  border-left: 1px solid $color-saddle;
   border-radius: 10px 0px 0px 10px;
-  color: saddlebrown;
+  color: $color-saddle;
   z-index: 4;
 
   overflow: hidden;
@@ -239,8 +239,8 @@ body {
 
 .submainnav--home {
   display: flex;
-  background: #fbe6bb;
-  border-top: 1px solid saddlebrown;
+  background: $bg-lightbeige;
+  border-top: 1px solid $color-saddle;
   border-radius: 0px 0px 0px 10px;
 }
 
@@ -274,20 +274,20 @@ body {
   position: relative;
   width: 100%;
   height: auto;
-  padding-bottom: 40px;
+  padding-bottom: $size-40;
   display: flex;
   align-items: center;
-  border-bottom: 2px solid burlywood;
+  border-bottom: 2px solid $color-burly;
   z-index: 2;
 }
 
 .div--subbreadhome {
   margin: auto;
-  margin-left: 40px;
+  margin-left: $size-40;
   padding: auto;
 
   display: flex;
-  box-shadow: 12px 12px 12px dimgrey;
+  box-shadow: 12px 12px 12px $color-dimgrey;
 }
 
 .div--artfirst {
@@ -295,14 +295,14 @@ body {
 }
 
 .art--firsthome {
-  padding: 10px 40px;
+  padding: 10px $size-40;
 }
 
 .art--firsthome h1 {
   position: relative;
   text-align: justify;
   color: goldenrod;
-  text-shadow: 1px 1px 1px saddlebrown;
+  text-shadow: 1px 1px 1px $color-saddle;
 }
 
 section p {
@@ -316,17 +316,17 @@ section p {
   position: relative;
   margin-top: 20px;
   margin-bottom: 20px;
-  padding: 20px 40px;
+  padding: 20px $size-40;
   background: #fff3db;
-  border-top: 1px solid burlywood;
-  border-bottom: 1px solid burlywood;
+  border-top: 1px solid $color-burly;
+  border-bottom: 1px solid $color-burly;
   z-index: 2;
 }
 
 .art--artinter h1 {
   text-align: justify;
   color: goldenrod;
-  text-shadow: 1px 1px 1px saddlebrown;
+  text-shadow: 1px 1px 1px $color-saddle;
 }
 
 .art--artinter p {
@@ -345,8 +345,8 @@ section p {
   align-items: center;
   justify-content: space-between;
 
-  border-top: 2px solid burlywood;
-  border-bottom: 2px solid burlywood;
+  border-top: 2px solid $color-burly;
+  border-bottom: 2px solid $color-burly;
 }
 
 .div--subcake {
@@ -354,13 +354,9 @@ section p {
   display: flex;
 }
 
-.div--cakeimg {
-  margin-right: 40px;  
-}
-
 .art--third {
   width: 100%;
-  padding: 20px 40px;
+  padding: 20px $size-40;
   text-align: justify;
 }
 
@@ -370,39 +366,37 @@ section h1 {
   padding: 0px 10px;
   font-size: 1.6rem;
   color: goldenrod;
-  text-shadow: 1px 1px 1px saddlebrown;
-}
-
-.art--third p {
+  text-shadow: 1px 1px 1px $color-saddle;
 }
 
 .div--cakeimg {
+  margin-right: $size-40;  
   padding: 20px 0px;
 }
 
 .div--cakeimg img {
   position: relative;
   display: flex;
-  box-shadow: 12px 12px 12px dimgrey;
+  box-shadow: 12px 12px 12px $color-dimgrey;
 }
 
 .div--finalhome {
   width: 100%;
   height: auto;
   margin: auto;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: $size-40;
+  padding-bottom: $size-40;
   display: flex;
   align-items: center;
-  border-top: 2px solid burlywood;  
+  border-top: 2px solid $color-burly;  
 }
 
 .div--sublasthome {
   position: relative;
   display: flex;
   margin: auto;
-  margin-left: 40px;
-  box-shadow: 12px 12px 12px dimgrey;
+  margin-left: $size-40;
+  box-shadow: 12px 12px 12px $color-dimgrey;
 }
 
 /*Last animation*/
@@ -436,11 +430,10 @@ section h1 {
 .click--img {
   width: 200px;
   height: 230px;
-}
-
-.click--img:hover {
-  opacity: 0.85;
-  cursor: pointer;
+  &:hover {
+    opacity: 0.85;
+    cursor: pointer;
+  }
 }
 
 footer {
@@ -491,10 +484,10 @@ footer {
   width: 25px;
   height: 25px;
   padding: 16px;
-  background: white;
+  background: $color-white;
   border-radius: 50%;
 }
 
 .img--iconhome {
-  background: white;
+  background: $color-white;
 }
