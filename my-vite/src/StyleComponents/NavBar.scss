@@ -1,3 +1,7 @@
+$color-black: #000000;
+$color-whitesmoke: #F5F5F5;
+$color-orange: #FFA500;
+
 .mainnavbar--div {
   width: 100%;
   height: 80px;
@@ -5,7 +9,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: right;
-  background: black;
+  background: $color-black;
   z-index: 3;
 }
 
@@ -21,7 +25,7 @@
   height: 50px;
   display: flex;
   align-items: center;
-  background: black;
+  background: $color-black;
 }
 
 .img--iconsnav {
@@ -45,11 +49,11 @@
   padding: 10px 10px;
   font-size: 1.4rem;
   text-decoration: none;
-  color: whitesmoke;
+  color: $color-whitesmoke;
 }
 
 .submainnavbar--div:hover {
-  color: orange;
+  color: $color-orange;
 }
 
 #lastsubmain--nav {

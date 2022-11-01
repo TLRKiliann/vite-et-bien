@@ -1,3 +1,11 @@
+$color-dim: #696969;
+$color-lightbrown: #fff3db;
+$color-burly: #DEB887;
+$color-saddle: #8B4513;
+$color-white: #ffffff;
+$color-golden: #DAA520;
+
+
 body {
   min-width: 399px;
   margin: auto;
@@ -9,9 +17,8 @@ body {
   height: auto;
   bottom: 0px;
   background: #fffaf0;
-  box-shadow: 0px 0px 20px dimgrey;
+  box-shadow: 0px 0px 20px $color-dim;
 }
-
 
 .div--titlecommandes h1 {
   margin: auto;
@@ -20,8 +27,8 @@ body {
   margin-left: 20px;
   font-size: 2.8rem;
   font-family: 'Dancing Script', cursive;
-  color: goldenrod;
-  text-shadow: 2px 1px 2px saddlebrown;
+  color: $color-golden;
+  text-shadow: 2px 1px 2px $color-saddle;
 }
 
 .div--titlecommandes h2 {
@@ -32,15 +39,15 @@ body {
   justify-content: left;
   font-family: 'Dancing Script', cursive;
   font-size: 2.0rem;
-  color: goldenrod;
-  text-shadow: 1px 1px 1px saddlebrown;
+  color: $color-golden;
+  text-shadow: 1px 1px 1px $color-saddle;
 }
 
 .delivery {
   position: relative;
-  background: #fff3db;
-  border-top: 1px solid burlywood;
-  border-bottom: 1px solid burlywood;
+  background: $color-lightbrown;
+  border-top: 1px solid $color-burly;
+  border-bottom: 1px solid $color-burly;
 }
 
 .delais {
@@ -60,7 +67,7 @@ body {
   align-items: center;
   font-size: 1.3rem;
   color: black;
-  text-shadow: 0px 0px 0px white;
+  text-shadow: 0px 0px 0px $color-white;
   z-index: 5;
 }
 
@@ -81,7 +88,7 @@ body {
   align-items: center;
   font-size: 1.3rem;
   color: black;
-  text-shadow: 0px 0px 0px white;
+  text-shadow: 0px 0px 0px $color-white;
 }
 
 .bg_mainbreadcmd {
@@ -98,7 +105,6 @@ body {
   margin-top: 86px;
 }
 
-
 .interstice--cmd {
   width: 100%;
   margin: auto;
@@ -107,19 +113,18 @@ body {
   margin-top: 40px;
   margin-bottom: 0px;
 
-  background: #fff3db;
-  border-top: 1px solid burlywood;
-  border-bottom: 1px solid burlywood;
+  background: $color-lightbrown;
+  border-top: 1px solid $color-burly;
+  border-bottom: 1px solid $color-burly;
 }
-
 
 .form--div {
   margin: auto;
   margin-bottom: 20px;
   padding: 40px 20px;
-  background: #fff3db;
-  border-top: 1px solid burlywood;
-  border-bottom: 1px solid burlywood;
+  background: $color-lightbrown;
+  border-top: 1px solid $color-burly;
+  border-bottom: 1px solid $color-burly;
 }
 
 .form {
@@ -133,7 +138,7 @@ body {
 
   background: #fbe6bb;
   border-radius: 20px;
-  box-shadow: 0px 0px 7px saddlebrown;
+  box-shadow: 0px 0px 7px $color-saddle;
 }
 
 .div--labinput {
@@ -152,10 +157,10 @@ body {
   width: 210px;
   padding: 3px 6px;
   font-size: 1.0rem;
-  background: burlywood;
-  border: 1px solid burlywood;
-  box-shadow: 0px 0px 7px white;
-  color: saddlebrown;
+  background: $color-burly;
+  border: 1px solid $color-burly;
+  box-shadow: 0px 0px 7px $color-white;
+  color: $color-saddle;
 }
 
 .label--cmd {
@@ -191,10 +196,10 @@ body {
 
 select {
   font-size: 1.0rem;
-  background: burlywood;
-  border: 1px solid burlywood;
-  box-shadow: 0px 0px 7px white;
-  color: saddlebrown;
+  background: $color-burly;
+  border: 1px solid $color-burly;
+  box-shadow: 0px 0px 7px $color-white;
+  color: $color-saddle;
 }
 
 select:hover {
@@ -210,16 +215,15 @@ select:hover {
   font-size: 1.0rem;
   font-weight: bold;
 
-  background: burlywood;
-  border: 1px solid burlywood;
-  box-shadow: 0px 0px 7px white;
+  background: $color-burly;
+  border: 1px solid $color-burly;
+  box-shadow: 0px 0px 7px $color-white;
   border-radius: 5px;
-  color: saddlebrown;
+  color: $color-saddle;
 }
 
-
 .btn--cmd:hover {
-  background: saddlebrown;
-  border: 1px solid saddlebrown;
-  color: burlywood;
+  background: $color-saddle;
+  border: 1px solid $color-saddle;
+  color: $color-burly;
 }

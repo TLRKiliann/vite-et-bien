@@ -1,6 +1,5 @@
 import React from 'react';
 import mainBread from '../assets/images/bread_title.png';
-import '../StylePages/Services.css';
 import painChoc from '../assets/images/pain_choc.png';
 import croissant from '../assets/images/croissant.jpg';
 import croissantAmendes from '../assets/images/croissant_2.jpeg';
@@ -12,6 +11,7 @@ import chocGat from '../assets/images/gateau_choc.jpg';
 import plateau from '../assets/images/plateau.jpg';
 import littlecake from '../assets/images/petits_gateau.jpg'
 import pepito from '../assets/images/gateau_pepites.jpg'
+import '../StylePages/Services.scss';
 
 
 export const Services = () => {
