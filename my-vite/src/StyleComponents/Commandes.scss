@@ -5,225 +5,209 @@ $color-saddle: #8B4513;
 $color-white: #ffffff;
 $color-golden: #DAA520;
 
-
 body {
   min-width: 399px;
   margin: auto;
-}
+  .main--commandes {
+    padding-top: 10px;
+    margin: 0px 140px;
+    height: auto;
+    bottom: 0px;
+    background: #fffaf0;
+    box-shadow: 0px 0px 20px $color-dim;
+    .div--titlecommandes {
+      margin: auto;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      font-family: 'Dancing Script', cursive;
+      color: $color-golden;
+      text-shadow: 2px 1px 2px $color-saddle;
+      h1 {
+        padding-left: 20px;
+        font-size: 2.8rem;
+      }
+      h2 {
+        padding-left: 20px;
+        font-size: 2.0rem;
+      }
+      .delivery {
+        position: relative;
+        background: $color-lightbrown;
+        border-top: 1px solid $color-burly;
+        border-bottom: 1px solid $color-burly;
+        .delais {
+          position: relative;
+          padding-top: 20px;
+          margin-left: 20px;
+          z-index: 4;
+        }
+        .delais--art {
+          margin-left: 20px; 
+        }
+        .delais--art p {
+          margin-top: 10px;
+          display: flex;
+          align-items: center;
+          font-size: 1.3rem;
+          color: black;
+          text-shadow: 0px 0px 0px $color-white;
+          z-index: 5;
+        }
+        .livraison {
+          position: relative;
+          padding-top: 20px;
+          margin-left: 20px;
+          z-index: 4;
+        }
+        .livraison--art {
+          margin-left: 20px;
+          margin-bottom: 20px;
+        }
+        .livraison--art p {
+          display: flex;
+          align-items: center;
+          font-size: 1.3rem;
+          color: black;
+          text-shadow: 0px 0px 0px $color-white;
+        }
+      }
+      .bg_mainbreadcmd {
+        position: fixed;
+        margin: auto;
+        top: 80px;
+        width: 100%;
+        opacity: 0.15;
+        .img--bg {
+          margin: auto;
+          margin-top: 86px;
+        }
+      }
+      .interstice--cmd {
+        width: 100%;
+        margin: auto;
+        padding-top: 20px;
+        padding-bottom: 60px;
+        margin-top: 40px;
+        margin-bottom: 0px;
 
-.main--commandes {
-  padding-top: 10px;
-  margin: 0px 140px;
-  height: auto;
-  bottom: 0px;
-  background: #fffaf0;
-  box-shadow: 0px 0px 20px $color-dim;
-}
-
-.div--titlecommandes h1 {
-  margin: auto;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  margin-left: 20px;
-  font-size: 2.8rem;
-  font-family: 'Dancing Script', cursive;
-  color: $color-golden;
-  text-shadow: 2px 1px 2px $color-saddle;
-}
-
-.div--titlecommandes h2 {
-  width: 80%;
-  margin: auto;
-  margin-left: 20px;
-  display: flex;
-  justify-content: left;
-  font-family: 'Dancing Script', cursive;
-  font-size: 2.0rem;
-  color: $color-golden;
-  text-shadow: 1px 1px 1px $color-saddle;
-}
-
-.delivery {
-  position: relative;
-  background: $color-lightbrown;
-  border-top: 1px solid $color-burly;
-  border-bottom: 1px solid $color-burly;
-}
-
-.delais {
-  position: relative;
-  padding-top: 20px;
-  margin-left: 20px;
-  z-index: 4;
-}
-
-.delais--art {
-  margin-left: 20px; 
-}
-
-.delais--art p {
-  margin-top: 10px;
-  display: flex;
-  align-items: center;
-  font-size: 1.3rem;
-  color: black;
-  text-shadow: 0px 0px 0px $color-white;
-  z-index: 5;
-}
-
-.livraison {
-  position: relative;
-  padding-top: 20px;
-  margin-left: 20px;
-  z-index: 4;
-}
-
-.livraison--art {
-  margin-left: 20px;
-  margin-bottom: 20px;
-}
-
-.livraison--art p {
-  display: flex;
-  align-items: center;
-  font-size: 1.3rem;
-  color: black;
-  text-shadow: 0px 0px 0px $color-white;
-}
-
-.bg_mainbreadcmd {
-  position: fixed;
-  margin: auto;
-  top: 80px;
-  width: 100%;
-  opacity: 0.15;
-}
-
-.bg_mainbreadcmd img {
-  width: 80%;
-  margin: auto;
-  margin-top: 86px;
-}
-
-.interstice--cmd {
-  width: 100%;
-  margin: auto;
-  padding-top: 20px;
-  padding-bottom: 60px;
-  margin-top: 40px;
-  margin-bottom: 0px;
-
-  background: $color-lightbrown;
-  border-top: 1px solid $color-burly;
-  border-bottom: 1px solid $color-burly;
-}
-
-.form--div {
-  margin: auto;
-  margin-bottom: 20px;
-  padding: 40px 20px;
-  background: $color-lightbrown;
-  border-top: 1px solid $color-burly;
-  border-bottom: 1px solid $color-burly;
-}
-
-.form {
-  position: relative;
-  width: 640px;
-  margin: auto;
-
-  padding: 20px 0px;
-  display: flex;
-  flex-direction: column;
-
-  background: #fbe6bb;
-  border-radius: 20px;
-  box-shadow: 0px 0px 7px $color-saddle;
-}
-
-.div--labinput {
-  width: 90%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: right;
-}
-
-.div--labinput label {
-  margin: 10px 10px;
-}
-
-.div--labinput input {
-  width: 210px;
-  padding: 3px 6px;
-  font-size: 1.0rem;
-  background: $color-burly;
-  border: 1px solid $color-burly;
-  box-shadow: 0px 0px 7px $color-white;
-  color: $color-saddle;
-}
-
-.label--cmd {
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-
-.wrap--select {
-  width: 510px;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: right;
-}
-
-#pains {
-  width: 220px;
-  margin-top: 12px;
-  margin-left: 10px;
-}
-
-#patiss {
-  width: 220px;
-  margin-top: 12px;
-  margin-left: 10px;
-}
-
-#assort {
-  width: 220px;
-  margin-top: 12px;
-  margin-left: 10px;
-}
-
-select {
-  font-size: 1.0rem;
-  background: $color-burly;
-  border: 1px solid $color-burly;
-  box-shadow: 0px 0px 7px $color-white;
-  color: $color-saddle;
-}
-
-select:hover {
-  color: whitesmoke;
-}
-
-.btn--cmd {
-  width: 160px;
-  margin: auto;
-  margin-top: 20px;
-  padding: 10px 10px;
-
-  font-size: 1.0rem;
-  font-weight: bold;
-
-  background: $color-burly;
-  border: 1px solid $color-burly;
-  box-shadow: 0px 0px 7px $color-white;
-  border-radius: 5px;
-  color: $color-saddle;
-}
-
-.btn--cmd:hover {
-  background: $color-saddle;
-  border: 1px solid $color-saddle;
-  color: $color-burly;
+        background: $color-lightbrown;
+        border-top: 1px solid $color-burly;
+        border-bottom: 1px solid $color-burly;
+      }
+      .form--div {
+        margin: auto;
+        margin-bottom: 20px;
+        padding: 40px 20px;
+        background: $color-lightbrown;
+        border-top: 1px solid $color-burly;
+        border-bottom: 1px solid $color-burly;
+        .form {
+          position: relative;
+          width: 640px;
+          margin: auto;
+          padding: 20px 0px;
+          display: flex;
+          flex-direction: column;
+          background: #fbe6bb;
+          border-radius: 20px;
+          box-shadow: 0px 0px 7px $color-saddle;
+          .labinput--div {
+            width: 60%;
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: right;
+            .labinput--label {
+              margin: 10px 10px;
+              font-size: 1.4rem;
+              color: #242424;
+            }
+            .labinput--input[type=text] {
+              width: 210px;
+              padding: 3px 6px;
+              font-size: 1.0rem;
+              background: $color-burly;
+              border: 1px solid $color-burly;
+              box-shadow: 0px 0px 7px $color-white;
+              &::placeholder {
+                color: $color-saddle;
+              }
+            }
+            .labinput--input[type=email] {
+              width: 210px;
+              padding: 3px 6px;
+              font-size: 1.0rem;
+              background: $color-burly;
+              border: 1px solid $color-burly;
+              box-shadow: 0px 0px 7px $color-white;
+              &::placeholder {
+                color: $color-saddle;
+              }
+            }
+          }
+          .wrap--select {
+            width: 60%;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: right;
+            .label--cmd {
+              margin-top: 20px;
+              margin-bottom: 10px;
+              font-size: 1.4rem;
+              color: #242424;
+            }
+            .pains {
+              width: 220px;
+              margin-top: 12px;
+              margin-left: 10px;
+            }
+            .patiss {
+              width: 220px;
+              margin-top: 12px;
+              margin-left: 10px;
+            }
+            .assort {
+              width: 220px;
+              margin-top: 12px;
+              margin-left: 10px;
+            }
+            select {
+              font-size: 1.0rem;
+              background: $color-burly;
+              border: 1px solid $color-burly;
+              box-shadow: 0px 0px 7px $color-white;
+              color: $color-saddle;
+              &:hover {
+                color: whitesmoke;
+              }
+            }
+          }
+          .btn--div {
+            width: 60%;
+            margin: auto;
+            display: flex;
+            justify-content: right;
+            .btn--cmd {
+              font-size: 1.0rem;
+              font-weight: bold;
+              margin-top: 10px;
+              padding: 10px 80px;
+              background: $color-burly;
+              border: 1px solid $color-burly;
+              box-shadow: 0px 0px 7px $color-white;
+              border-radius: 5px;
+              color: $color-saddle;
+              &:hover {
+                background: $color-saddle;
+                border: 1px solid $color-saddle;
+                color: $color-burly;
+              } 
+            }
+          }
+        }
+      }
+    }
+  }
 }
