@@ -2,7 +2,6 @@ import React from 'react';
 import { BiTime } from 'react-icons/bi';
 import { TbTruckDelivery } from 'react-icons/tb';
 import mainBread from '../assets/images/bread_title.png';
-//import baguette from '../assets/images/baguette.png';
 import '../StyleComponents/Commandes.scss';
 
 export const Commandes = () => {
@@ -16,8 +15,9 @@ export const Commandes = () => {
           <div className="bg_mainbreadcmd">
             <img 
               src={mainBread} 
-              width="800px"
-              height="760px"
+              width="80%"
+              height="80%"
+              className="img--bg"
               alt='no bg for title' />
           </div>
 
@@ -60,24 +60,24 @@ export const Commandes = () => {
 
             <form className="form">
           
-              <div className="div--labinput">
-                <label>Prenom :</label>
-                <input type='text' placeholder="Prenom" />
+              <div className="labinput--div">
+                <label className="labinput--label">Prenom :</label>
+                <input className="labinput--input" type='text' placeholder="Prenom" />
               </div>
-              <div className="div--labinput">  
-                <label>Nom :</label>
-                <input type='text' placeholder="Nom" />
+              <div className="labinput--div">  
+                <label className="labinput--label">Nom :</label>
+                <input className="labinput--input" type='text' placeholder="Nom" />
               </div>
 
-              <div className="div--labinput">  
-                <label>E-mail :</label>
-                <input type='email' placeholder="votre.email@mail.com" />
+              <div className="labinput--div">  
+                <label className="labinput--label">E-mail :</label>
+                <input className="labinput--input" type='email' placeholder="votre.email@mail.com" />
               </div>
 
               <div className="wrap--select">
                 <label htmlFor="pains" className="label--cmd">Nos pains :</label>
 
-                <select name="pains" id="pains">
+                <select name="pains" id="pains" className="pains">
                   <option value="campagne">Pain Campagnard</option>
                   <option value="olive">Pain aux Olives</option>
                   <option value="maison">Pain Maison</option>
@@ -89,7 +89,7 @@ export const Commandes = () => {
               <div className="wrap--select">
                 <label htmlFor="patiss" className="label--cmd">Nos Pâtisseries :</label>
 
-                <select name="patiss" id="patiss">
+                <select name="patiss" id="patiss" className="patiss">
                   <option value="croiss">Croissants</option>
                   <option value="amende">Croissants aux Amendes</option>
                   <option value="choc">Pain au Chocolat</option>
@@ -105,7 +105,7 @@ export const Commandes = () => {
               <div className="wrap--select">
                 <label htmlFor="assort" className="label--cmd">Nos Spécialités :</label>
 
-                <select name="assort" id="assort">
+                <select name="assort" id="assort" className="assort">
                   <option value="assortiment">Plateau d'Assortiments</option>
                   <option value="confis">Plateau du Confiseur</option>
                   <option value="platchoc">Plateau du Chocolatier</option>
@@ -113,10 +113,11 @@ export const Commandes = () => {
                 </select> 
               </div>
 
-              <button className="btn--cmd">
-                Envoyer
-              </button>
-
+              <div className="btn--div">
+                <button type="button" className="btn--cmd">
+                  Envoyer
+                </button>
+              </div>
             </form>
 
           </div>
