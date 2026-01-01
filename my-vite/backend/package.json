@@ -10,7 +10,7 @@
   "author": "koalatree",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.22.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
